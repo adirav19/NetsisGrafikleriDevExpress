@@ -1,0 +1,1650 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard>
+  <Title Text="Sample Dashboard" Alignment="Left" />
+  <DataSources>
+    <SqlDataSource Name="MAC22" ComponentName="sqlDataSource2">
+      <Connection Name="MAC2022" FromAppConfig="true" />
+      <Query Type="SelectQuery" Name="TBLCAHAR">
+        <Tables>
+          <Table Name="TBLCAHAR" />
+        </Tables>
+        <Columns>
+          <Column Table="TBLCAHAR" Name="SUBE_KODU" />
+          <Column Table="TBLCAHAR" Name="CARI_KOD" />
+          <Column Table="TBLCAHAR" Name="TARIH" />
+          <Column Table="TBLCAHAR" Name="VADE_TARIHI" />
+          <Column Table="TBLCAHAR" Name="BELGE_NO" />
+          <Column Table="TBLCAHAR" Name="ACIKLAMA" />
+          <Column Table="TBLCAHAR" Name="HKA" />
+          <Column Table="TBLCAHAR" Name="BORC" />
+          <Column Table="TBLCAHAR" Name="ALACAK" />
+          <Column Table="TBLCAHAR" Name="BAKIYE" />
+          <Column Table="TBLCAHAR" Name="DOVIZ_TURU" />
+          <Column Table="TBLCAHAR" Name="DOVIZ_TUTAR" />
+          <Column Table="TBLCAHAR" Name="RAPOR_KODU" />
+          <Column Table="TBLCAHAR" Name="F9SC" />
+          <Column Table="TBLCAHAR" Name="HAREKET_TURU" />
+          <Column Table="TBLCAHAR" Name="MIKTAR" />
+          <Column Table="TBLCAHAR" Name="ILAVE_RAPOR_KODU" />
+          <Column Table="TBLCAHAR" Name="UPDATE_KODU" />
+          <Column Table="TBLCAHAR" Name="KAPATILMIS_TUTAR" />
+          <Column Table="TBLCAHAR" Name="ODEME_GUNU" />
+          <Column Table="TBLCAHAR" Name="FIRMA_DOVIZ_TIPI" />
+          <Column Table="TBLCAHAR" Name="FIRMA_DOVIZ_TUTARI" />
+          <Column Table="TBLCAHAR" Name="PLASIYER_KODU" />
+          <Column Table="TBLCAHAR" Name="ENT_REF_KEY" />
+          <Column Table="TBLCAHAR" Name="INC_KEY_NUMBER" />
+          <Column Table="TBLCAHAR" Name="RAPOR_KODU2" />
+          <Column Table="TBLCAHAR" Name="DUZELTMETARIHI" />
+          <Column Table="TBLCAHAR" Name="S_YEDEK1" />
+          <Column Table="TBLCAHAR" Name="S_YEDEK2" />
+          <Column Table="TBLCAHAR" Name="F_YEDEK1" />
+          <Column Table="TBLCAHAR" Name="F_YEDEK2" />
+          <Column Table="TBLCAHAR" Name="C_YEDEK1" />
+          <Column Table="TBLCAHAR" Name="C_YEDEK2" />
+          <Column Table="TBLCAHAR" Name="B_YEDEK1" />
+          <Column Table="TBLCAHAR" Name="I_YEDEK1" />
+          <Column Table="TBLCAHAR" Name="L_YEDEK1" />
+          <Column Table="TBLCAHAR" Name="D_YEDEK1" />
+          <Column Table="TBLCAHAR" Name="PROJE_KODU" />
+          <Column Table="TBLCAHAR" Name="ONAYTIPI" />
+          <Column Table="TBLCAHAR" Name="ONAYNUM" />
+          <Column Table="TBLCAHAR" Name="BAGLANTI_NO" />
+        </Columns>
+      </Query>
+      <Query Type="SelectQuery" Name="TBLKASA">
+        <Tables>
+          <Table Name="TBLKASA" />
+        </Tables>
+        <Columns>
+          <Column Table="TBLKASA" Name="KSMAS_KOD" />
+          <Column Table="TBLKASA" Name="TARIH" />
+          <Column Table="TBLKASA" Name="FISNO" />
+          <Column Table="TBLKASA" Name="IO" />
+          <Column Table="TBLKASA" Name="TIP" />
+          <Column Table="TBLKASA" Name="ACIKLAMA" />
+          <Column Table="TBLKASA" Name="TUTAR" />
+          <Column Table="TBLKASA" Name="CARI_MUH" />
+          <Column Table="TBLKASA" Name="KOD" />
+          <Column Table="TBLKASA" Name="DOVIZTUT" />
+          <Column Table="TBLKASA" Name="KUR" />
+          <Column Table="TBLKASA" Name="PLASIYER_KODU" />
+          <Column Table="TBLKASA" Name="ODEMETURU" />
+          <Column Table="TBLKASA" Name="UPDATE_KODU" />
+          <Column Table="TBLKASA" Name="ZAMAN" />
+          <Column Table="TBLKASA" Name="KULL_ID" />
+          <Column Table="TBLKASA" Name="SIRA" />
+          <Column Table="TBLKASA" Name="SUBE_KODU" />
+          <Column Table="TBLKASA" Name="KREDI_KART_NO" />
+          <Column Table="TBLKASA" Name="KDV_ORAN" />
+          <Column Table="TBLKASA" Name="KDV_DAHIL" />
+          <Column Table="TBLKASA" Name="YEDEK1" />
+          <Column Table="TBLKASA" Name="YEDEK2" />
+          <Column Table="TBLKASA" Name="YEDEK3" />
+          <Column Table="TBLKASA" Name="YEDEK4" />
+          <Column Table="TBLKASA" Name="YEDEK5" />
+          <Column Table="TBLKASA" Name="YEDEK6" />
+          <Column Table="TBLKASA" Name="YEDEK7" />
+          <Column Table="TBLKASA" Name="YEDEK8" />
+          <Column Table="TBLKASA" Name="YEDEK9" />
+          <Column Table="TBLKASA" Name="YEDEK10" />
+          <Column Table="TBLKASA" Name="PROJE_KODU" />
+          <Column Table="TBLKASA" Name="KAYITYAPANKUL" />
+          <Column Table="TBLKASA" Name="KAYITTARIHI" />
+          <Column Table="TBLKASA" Name="DUZELTMEYAPANKUL" />
+          <Column Table="TBLKASA" Name="DUZELTMETARIHI" />
+          <Column Table="TBLKASA" Name="ONAYTIPI" />
+          <Column Table="TBLKASA" Name="ONAYNUM" />
+          <Column Table="TBLKASA" Name="KAYNAK" />
+          <Column Table="TBLKASA" Name="ENTEGREFKEY" />
+          <Column Table="TBLKASA" Name="KRTSOZMASINCKEYNO" />
+          <Column Table="TBLKASA" Name="TAKSIT" />
+          <Column Table="TBLKASA" Name="GECERLI" />
+          <Column Table="TBLKASA" Name="BFORMCARIKODU" />
+          <Column Table="TBLKASA" Name="REFKOD" />
+          <Column Table="TBLKASA" Name="INDKDV" />
+        </Columns>
+      </Query>
+      <Query Type="SelectQuery" Name="TBLBNKHESTRA">
+        <Tables>
+          <Table Name="TBLBNKHESTRA" />
+        </Tables>
+        <Columns>
+          <Column Table="TBLBNKHESTRA" Name="NETHESKODU" />
+          <Column Table="TBLBNKHESTRA" Name="HARTIPI" />
+          <Column Table="TBLBNKHESTRA" Name="TARIH" />
+          <Column Table="TBLBNKHESTRA" Name="HARTURU" />
+          <Column Table="TBLBNKHESTRA" Name="VADETARIH" />
+          <Column Table="TBLBNKHESTRA" Name="EFFEKTIFTARIH" />
+          <Column Table="TBLBNKHESTRA" Name="FAIZORAN" />
+          <Column Table="TBLBNKHESTRA" Name="BA" />
+          <Column Table="TBLBNKHESTRA" Name="PLASIYERKODU" />
+          <Column Table="TBLBNKHESTRA" Name="PROJEKODU" />
+          <Column Table="TBLBNKHESTRA" Name="ENTEGREFKEY" />
+          <Column Table="TBLBNKHESTRA" Name="INCKEYNO" />
+          <Column Table="TBLBNKHESTRA" Name="TUTAR" />
+          <Column Table="TBLBNKHESTRA" Name="DOVIZTIPI" />
+          <Column Table="TBLBNKHESTRA" Name="DOVIZTUTAR" />
+          <Column Table="TBLBNKHESTRA" Name="ACIKLAMA" />
+          <Column Table="TBLBNKHESTRA" Name="BELGENO" />
+          <Column Table="TBLBNKHESTRA" Name="KAYITYAPANKUL" />
+          <Column Table="TBLBNKHESTRA" Name="KAYITTARIHI" />
+          <Column Table="TBLBNKHESTRA" Name="SUBE_KODU" />
+          <Column Table="TBLBNKHESTRA" Name="OTOINCKEYNO" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK1" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK2" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK3" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK4" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK5" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK6" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK7" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK8" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK9" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK10" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK11" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK12" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK13" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK14" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK15" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK16" />
+          <Column Table="TBLBNKHESTRA" Name="ONAYTIPI" />
+          <Column Table="TBLBNKHESTRA" Name="ONAYNUM" />
+          <Column Table="TBLBNKHESTRA" Name="OTOSIRANO" />
+          <Column Table="TBLBNKHESTRA" Name="BNKKSTINCKEYNO" />
+          <Column Table="TBLBNKHESTRA" Name="LIBORORAN" />
+          <Column Table="TBLBNKHESTRA" Name="SPREADORAN" />
+          <Column Table="TBLBNKHESTRA" Name="IHRACAT" />
+          <Column Table="TBLBNKHESTRA" Name="TAKSIT" />
+          <Column Table="TBLBNKHESTRA" Name="DONEM" />
+          <Column Table="TBLBNKHESTRA" Name="TAKSITTUTAR" />
+          <Column Table="TBLBNKHESTRA" Name="TAKSITDOVTUTAR" />
+          <Column Table="TBLBNKHESTRA" Name="KALANTUTAR" />
+          <Column Table="TBLBNKHESTRA" Name="KALANDOVTUTAR" />
+          <Column Table="TBLBNKHESTRA" Name="HANGITAKSIT" />
+        </Columns>
+      </Query>
+      <Query Type="SelectQuery" Name="WEB_TOPLU_STOKHAREKET">
+        <Tables>
+          <Table Name="WEB_TOPLU_STOKHAREKET" />
+        </Tables>
+        <Columns>
+          <Column Table="WEB_TOPLU_STOKHAREKET" Name="STOK_KODU" />
+          <Column Table="WEB_TOPLU_STOKHAREKET" Name="STHAR_TARIH" />
+          <Column Table="WEB_TOPLU_STOKHAREKET" Name="FISNO" />
+          <Column Table="WEB_TOPLU_STOKHAREKET" Name="STHAR_GCKOD" />
+          <Column Table="WEB_TOPLU_STOKHAREKET" Name="STHAR_GCMIK" />
+          <Column Table="WEB_TOPLU_STOKHAREKET" Name="STHAR_NF" />
+          <Column Table="WEB_TOPLU_STOKHAREKET" Name="STHAR_BF" />
+          <Column Table="WEB_TOPLU_STOKHAREKET" Name="STHAR_DOVTIP" />
+          <Column Table="WEB_TOPLU_STOKHAREKET" Name="STHAR_DOVFIAT" />
+          <Column Table="WEB_TOPLU_STOKHAREKET" Name="STHAR_FTIRSIP" />
+        </Columns>
+      </Query>
+      <Query Type="SelectQuery" Name="TBLSTSABIT">
+        <Tables>
+          <Table Name="TBLSTSABIT" />
+        </Tables>
+        <Columns>
+          <Column Table="TBLSTSABIT" Name="SUBE_KODU" />
+          <Column Table="TBLSTSABIT" Name="ISLETME_KODU" />
+          <Column Table="TBLSTSABIT" Name="STOK_KODU" />
+          <Column Table="TBLSTSABIT" Name="URETICI_KODU" />
+          <Column Table="TBLSTSABIT" Name="STOK_ADI" />
+          <Column Table="TBLSTSABIT" Name="GRUP_KODU" />
+          <Column Table="TBLSTSABIT" Name="KOD_1" />
+          <Column Table="TBLSTSABIT" Name="KOD_2" />
+          <Column Table="TBLSTSABIT" Name="KOD_3" />
+          <Column Table="TBLSTSABIT" Name="KOD_4" />
+          <Column Table="TBLSTSABIT" Name="KOD_5" />
+          <Column Table="TBLSTSABIT" Name="SATICI_KODU" />
+          <Column Table="TBLSTSABIT" Name="OLCU_BR1" />
+          <Column Table="TBLSTSABIT" Name="OLCU_BR2" />
+          <Column Table="TBLSTSABIT" Name="PAY_1" />
+          <Column Table="TBLSTSABIT" Name="PAYDA_1" />
+          <Column Table="TBLSTSABIT" Name="OLCU_BR3" />
+          <Column Table="TBLSTSABIT" Name="PAY2" />
+          <Column Table="TBLSTSABIT" Name="PAYDA2" />
+          <Column Table="TBLSTSABIT" Name="FIAT_BIRIMI" />
+          <Column Table="TBLSTSABIT" Name="AZAMI_STOK" />
+          <Column Table="TBLSTSABIT" Name="ASGARI_STOK" />
+          <Column Table="TBLSTSABIT" Name="TEMIN_SURESI" />
+          <Column Table="TBLSTSABIT" Name="KUL_MIK" />
+          <Column Table="TBLSTSABIT" Name="RISK_SURESI" />
+          <Column Table="TBLSTSABIT" Name="ZAMAN_BIRIMI" />
+          <Column Table="TBLSTSABIT" Name="SATIS_FIAT1" />
+          <Column Table="TBLSTSABIT" Name="SATIS_FIAT2" />
+          <Column Table="TBLSTSABIT" Name="SATIS_FIAT3" />
+          <Column Table="TBLSTSABIT" Name="SATIS_FIAT4" />
+          <Column Table="TBLSTSABIT" Name="SAT_DOV_TIP" />
+          <Column Table="TBLSTSABIT" Name="DOV_ALIS_FIAT" />
+          <Column Table="TBLSTSABIT" Name="DOV_MAL_FIAT" />
+          <Column Table="TBLSTSABIT" Name="DOV_SATIS_FIAT" />
+          <Column Table="TBLSTSABIT" Name="MUH_DETAYKODU" />
+          <Column Table="TBLSTSABIT" Name="BIRIM_AGIRLIK" />
+          <Column Table="TBLSTSABIT" Name="NAKLIYET_TUT" />
+          <Column Table="TBLSTSABIT" Name="KDV_ORANI" />
+          <Column Table="TBLSTSABIT" Name="ALIS_DOV_TIP" />
+          <Column Table="TBLSTSABIT" Name="DEPO_KODU" />
+          <Column Table="TBLSTSABIT" Name="DOV_TUR" />
+          <Column Table="TBLSTSABIT" Name="URET_OLCU_BR" />
+          <Column Table="TBLSTSABIT" Name="BILESENMI" />
+          <Column Table="TBLSTSABIT" Name="MAMULMU" />
+          <Column Table="TBLSTSABIT" Name="FORMUL_TOPLAMI" />
+          <Column Table="TBLSTSABIT" Name="UPDATE_KODU" />
+          <Column Table="TBLSTSABIT" Name="MAX_ISKONTO" />
+          <Column Table="TBLSTSABIT" Name="ECZACI_KARI" />
+          <Column Table="TBLSTSABIT" Name="MIKTAR" />
+          <Column Table="TBLSTSABIT" Name="MAL_FAZLASI" />
+          <Column Table="TBLSTSABIT" Name="KDV_TENZIL_ORAN" />
+          <Column Table="TBLSTSABIT" Name="KILIT" />
+          <Column Table="TBLSTSABIT" Name="ONCEKI_KOD" />
+          <Column Table="TBLSTSABIT" Name="SONRAKI_KOD" />
+          <Column Table="TBLSTSABIT" Name="BARKOD1" />
+          <Column Table="TBLSTSABIT" Name="BARKOD2" />
+          <Column Table="TBLSTSABIT" Name="BARKOD3" />
+          <Column Table="TBLSTSABIT" Name="ALIS_KDV_KODU" />
+          <Column Table="TBLSTSABIT" Name="ALIS_FIAT1" />
+          <Column Table="TBLSTSABIT" Name="ALIS_FIAT2" />
+          <Column Table="TBLSTSABIT" Name="ALIS_FIAT3" />
+          <Column Table="TBLSTSABIT" Name="ALIS_FIAT4" />
+          <Column Table="TBLSTSABIT" Name="LOT_SIZE" />
+          <Column Table="TBLSTSABIT" Name="MIN_SIP_MIKTAR" />
+          <Column Table="TBLSTSABIT" Name="SABIT_SIP_ARALIK" />
+          <Column Table="TBLSTSABIT" Name="SIP_POLITIKASI" />
+          <Column Table="TBLSTSABIT" Name="OZELLIK_KODU1" />
+          <Column Table="TBLSTSABIT" Name="OZELLIK_KODU2" />
+          <Column Table="TBLSTSABIT" Name="OZELLIK_KODU3" />
+          <Column Table="TBLSTSABIT" Name="OZELLIK_KODU4" />
+          <Column Table="TBLSTSABIT" Name="OZELLIK_KODU5" />
+          <Column Table="TBLSTSABIT" Name="OPSIYON_KODU1" />
+          <Column Table="TBLSTSABIT" Name="OPSIYON_KODU2" />
+          <Column Table="TBLSTSABIT" Name="OPSIYON_KODU3" />
+          <Column Table="TBLSTSABIT" Name="OPSIYON_KODU4" />
+          <Column Table="TBLSTSABIT" Name="OPSIYON_KODU5" />
+          <Column Table="TBLSTSABIT" Name="BILESEN_OP_KODU" />
+          <Column Table="TBLSTSABIT" Name="SIP_VER_MAL" />
+          <Column Table="TBLSTSABIT" Name="ELDE_BUL_MAL" />
+          <Column Table="TBLSTSABIT" Name="YIL_TAH_KUL_MIK" />
+          <Column Table="TBLSTSABIT" Name="EKON_SIP_MIKTAR" />
+          <Column Table="TBLSTSABIT" Name="ESKI_RECETE" />
+          <Column Table="TBLSTSABIT" Name="OTOMATIK_URETIM" />
+          <Column Table="TBLSTSABIT" Name="ALFKOD" />
+          <Column Table="TBLSTSABIT" Name="SAFKOD" />
+          <Column Table="TBLSTSABIT" Name="KODTURU" />
+          <Column Table="TBLSTSABIT" Name="S_YEDEK1" />
+          <Column Table="TBLSTSABIT" Name="S_YEDEK2" />
+          <Column Table="TBLSTSABIT" Name="F_YEDEK3" />
+          <Column Table="TBLSTSABIT" Name="F_YEDEK4" />
+          <Column Table="TBLSTSABIT" Name="C_YEDEK5" />
+          <Column Table="TBLSTSABIT" Name="C_YEDEK6" />
+          <Column Table="TBLSTSABIT" Name="B_YEDEK7" />
+          <Column Table="TBLSTSABIT" Name="I_YEDEK8" />
+          <Column Table="TBLSTSABIT" Name="L_YEDEK9" />
+          <Column Table="TBLSTSABIT" Name="D_YEDEK10" />
+          <Column Table="TBLSTSABIT" Name="GIRIS_SERI" />
+          <Column Table="TBLSTSABIT" Name="CIKIS_SERI" />
+          <Column Table="TBLSTSABIT" Name="SERI_BAK" />
+          <Column Table="TBLSTSABIT" Name="SERI_MIK" />
+          <Column Table="TBLSTSABIT" Name="SERI_GIR_OT" />
+          <Column Table="TBLSTSABIT" Name="SERI_CIK_OT" />
+          <Column Table="TBLSTSABIT" Name="SERI_BASLANGIC" />
+          <Column Table="TBLSTSABIT" Name="FIYATKODU" />
+          <Column Table="TBLSTSABIT" Name="FIYATSIRASI" />
+          <Column Table="TBLSTSABIT" Name="PLANLANACAK" />
+          <Column Table="TBLSTSABIT" Name="LOT_SIZECUSTOMER" />
+          <Column Table="TBLSTSABIT" Name="MIN_SIP_MIKTARCUSTOMER" />
+          <Column Table="TBLSTSABIT" Name="GUMRUKTARIFEKODU" />
+          <Column Table="TBLSTSABIT" Name="ABCKODU" />
+          <Column Table="TBLSTSABIT" Name="PERFORMANSKODU" />
+          <Column Table="TBLSTSABIT" Name="SATICISIPKILIT" />
+          <Column Table="TBLSTSABIT" Name="MUSTERISIPKILIT" />
+          <Column Table="TBLSTSABIT" Name="SATINALMAKILIT" />
+          <Column Table="TBLSTSABIT" Name="SATISKILIT" />
+          <Column Table="TBLSTSABIT" Name="EN" />
+          <Column Table="TBLSTSABIT" Name="BOY" />
+          <Column Table="TBLSTSABIT" Name="GENISLIK" />
+          <Column Table="TBLSTSABIT" Name="SIPLIMITVAR" />
+          <Column Table="TBLSTSABIT" Name="SONSTOKKODU" />
+          <Column Table="TBLSTSABIT" Name="ONAYTIPI" />
+          <Column Table="TBLSTSABIT" Name="ONAYNUM" />
+          <Column Table="TBLSTSABIT" Name="FIKTIF_MAM" />
+          <Column Table="TBLSTSABIT" Name="YAPILANDIR" />
+          <Column Table="TBLSTSABIT" Name="SBOMVARMI" />
+          <Column Table="TBLSTSABIT" Name="BAGLISTOKKOD" />
+          <Column Table="TBLSTSABIT" Name="YAPKOD" />
+          <Column Table="TBLSTSABIT" Name="ALISTALTEKKILIT" />
+          <Column Table="TBLSTSABIT" Name="SATISTALTEKKILIT" />
+          <Column Table="TBLSTSABIT" Name="S_YEDEK3" />
+          <Column Table="TBLSTSABIT" Name="STOKMEVZUAT" />
+          <Column Table="TBLSTSABIT" Name="OTVTEVKIFAT" />
+          <Column Table="TBLSTSABIT" Name="SERIBARKOD" />
+          <Column Table="TBLSTSABIT" Name="ATIK_URUN" />
+        </Columns>
+      </Query>
+      <ConnectionOptions CloseConnection="true" />
+    </SqlDataSource>
+    <SqlDataSource Name="PRONEN22" ComponentName="sqlDataSource3">
+      <Connection Name="PRONEN2022" FromAppConfig="true" />
+      <Query Type="SelectQuery" Name="TBLCAHAR">
+        <Tables>
+          <Table Name="TBLCAHAR" />
+        </Tables>
+        <Columns>
+          <Column Table="TBLCAHAR" Name="SUBE_KODU" />
+          <Column Table="TBLCAHAR" Name="CARI_KOD" />
+          <Column Table="TBLCAHAR" Name="TARIH" />
+          <Column Table="TBLCAHAR" Name="VADE_TARIHI" />
+          <Column Table="TBLCAHAR" Name="BELGE_NO" />
+          <Column Table="TBLCAHAR" Name="ACIKLAMA" />
+          <Column Table="TBLCAHAR" Name="HKA" />
+          <Column Table="TBLCAHAR" Name="BORC" />
+          <Column Table="TBLCAHAR" Name="ALACAK" />
+          <Column Table="TBLCAHAR" Name="BAKIYE" />
+          <Column Table="TBLCAHAR" Name="DOVIZ_TURU" />
+          <Column Table="TBLCAHAR" Name="DOVIZ_TUTAR" />
+          <Column Table="TBLCAHAR" Name="RAPOR_KODU" />
+          <Column Table="TBLCAHAR" Name="F9SC" />
+          <Column Table="TBLCAHAR" Name="HAREKET_TURU" />
+          <Column Table="TBLCAHAR" Name="MIKTAR" />
+          <Column Table="TBLCAHAR" Name="ILAVE_RAPOR_KODU" />
+          <Column Table="TBLCAHAR" Name="UPDATE_KODU" />
+          <Column Table="TBLCAHAR" Name="KAPATILMIS_TUTAR" />
+          <Column Table="TBLCAHAR" Name="ODEME_GUNU" />
+          <Column Table="TBLCAHAR" Name="FIRMA_DOVIZ_TIPI" />
+          <Column Table="TBLCAHAR" Name="FIRMA_DOVIZ_TUTARI" />
+          <Column Table="TBLCAHAR" Name="PLASIYER_KODU" />
+          <Column Table="TBLCAHAR" Name="ENT_REF_KEY" />
+          <Column Table="TBLCAHAR" Name="INC_KEY_NUMBER" />
+          <Column Table="TBLCAHAR" Name="RAPOR_KODU2" />
+          <Column Table="TBLCAHAR" Name="DUZELTMETARIHI" />
+          <Column Table="TBLCAHAR" Name="S_YEDEK1" />
+          <Column Table="TBLCAHAR" Name="S_YEDEK2" />
+          <Column Table="TBLCAHAR" Name="F_YEDEK1" />
+          <Column Table="TBLCAHAR" Name="F_YEDEK2" />
+          <Column Table="TBLCAHAR" Name="C_YEDEK1" />
+          <Column Table="TBLCAHAR" Name="C_YEDEK2" />
+          <Column Table="TBLCAHAR" Name="B_YEDEK1" />
+          <Column Table="TBLCAHAR" Name="I_YEDEK1" />
+          <Column Table="TBLCAHAR" Name="L_YEDEK1" />
+          <Column Table="TBLCAHAR" Name="D_YEDEK1" />
+          <Column Table="TBLCAHAR" Name="PROJE_KODU" />
+          <Column Table="TBLCAHAR" Name="ONAYTIPI" />
+          <Column Table="TBLCAHAR" Name="ONAYNUM" />
+          <Column Table="TBLCAHAR" Name="BAGLANTI_NO" />
+        </Columns>
+      </Query>
+      <ConnectionOptions CloseConnection="true" />
+    </SqlDataSource>
+    <SqlDataSource Name="VARYANT22" ComponentName="sqlDataSource4">
+      <Connection Name="VARYANT2022" FromAppConfig="true" />
+      <Query Type="SelectQuery" Name="TBLCAHAR">
+        <Tables>
+          <Table Name="TBLCAHAR" />
+        </Tables>
+        <Columns>
+          <Column Table="TBLCAHAR" Name="SUBE_KODU" />
+          <Column Table="TBLCAHAR" Name="CARI_KOD" />
+          <Column Table="TBLCAHAR" Name="TARIH" />
+          <Column Table="TBLCAHAR" Name="VADE_TARIHI" />
+          <Column Table="TBLCAHAR" Name="BELGE_NO" />
+          <Column Table="TBLCAHAR" Name="ACIKLAMA" />
+          <Column Table="TBLCAHAR" Name="HKA" />
+          <Column Table="TBLCAHAR" Name="BORC" />
+          <Column Table="TBLCAHAR" Name="ALACAK" />
+          <Column Table="TBLCAHAR" Name="BAKIYE" />
+          <Column Table="TBLCAHAR" Name="DOVIZ_TURU" />
+          <Column Table="TBLCAHAR" Name="DOVIZ_TUTAR" />
+          <Column Table="TBLCAHAR" Name="RAPOR_KODU" />
+          <Column Table="TBLCAHAR" Name="F9SC" />
+          <Column Table="TBLCAHAR" Name="HAREKET_TURU" />
+          <Column Table="TBLCAHAR" Name="MIKTAR" />
+          <Column Table="TBLCAHAR" Name="ILAVE_RAPOR_KODU" />
+          <Column Table="TBLCAHAR" Name="UPDATE_KODU" />
+          <Column Table="TBLCAHAR" Name="KAPATILMIS_TUTAR" />
+          <Column Table="TBLCAHAR" Name="ODEME_GUNU" />
+          <Column Table="TBLCAHAR" Name="FIRMA_DOVIZ_TIPI" />
+          <Column Table="TBLCAHAR" Name="FIRMA_DOVIZ_TUTARI" />
+          <Column Table="TBLCAHAR" Name="PLASIYER_KODU" />
+          <Column Table="TBLCAHAR" Name="ENT_REF_KEY" />
+          <Column Table="TBLCAHAR" Name="INC_KEY_NUMBER" />
+          <Column Table="TBLCAHAR" Name="RAPOR_KODU2" />
+          <Column Table="TBLCAHAR" Name="DUZELTMETARIHI" />
+          <Column Table="TBLCAHAR" Name="S_YEDEK1" />
+          <Column Table="TBLCAHAR" Name="S_YEDEK2" />
+          <Column Table="TBLCAHAR" Name="F_YEDEK1" />
+          <Column Table="TBLCAHAR" Name="F_YEDEK2" />
+          <Column Table="TBLCAHAR" Name="C_YEDEK1" />
+          <Column Table="TBLCAHAR" Name="C_YEDEK2" />
+          <Column Table="TBLCAHAR" Name="B_YEDEK1" />
+          <Column Table="TBLCAHAR" Name="I_YEDEK1" />
+          <Column Table="TBLCAHAR" Name="L_YEDEK1" />
+          <Column Table="TBLCAHAR" Name="D_YEDEK1" />
+          <Column Table="TBLCAHAR" Name="PROJE_KODU" />
+          <Column Table="TBLCAHAR" Name="ONAYTIPI" />
+          <Column Table="TBLCAHAR" Name="ONAYNUM" />
+          <Column Table="TBLCAHAR" Name="BAGLANTI_NO" />
+        </Columns>
+      </Query>
+      <ConnectionOptions CloseConnection="true" />
+    </SqlDataSource>
+    <SqlDataSource Name="MOSER22" ComponentName="sqlDataSource1">
+      <Connection Name="MOSER22" FromAppConfig="true" />
+      <Query Type="SelectQuery" Name="TBLCAHAR">
+        <Tables>
+          <Table Name="TBLCAHAR" />
+          <Table Name="TBLCASABIT" />
+          <Relation Type="Inner" Parent="TBLCAHAR" Nested="TBLCASABIT">
+            <KeyColumn Parent="CARI_KOD" Nested="CARI_KOD" />
+          </Relation>
+        </Tables>
+        <Columns>
+          <Column Table="TBLCAHAR" Name="SUBE_KODU" />
+          <Column Table="TBLCAHAR" Name="CARI_KOD" />
+          <Column Table="TBLCAHAR" Name="TARIH" />
+          <Column Table="TBLCAHAR" Name="VADE_TARIHI" />
+          <Column Table="TBLCAHAR" Name="BELGE_NO" />
+          <Column Table="TBLCAHAR" Name="ACIKLAMA" />
+          <Column Table="TBLCAHAR" Name="HKA" />
+          <Column Table="TBLCAHAR" Name="BORC" />
+          <Column Table="TBLCAHAR" Name="ALACAK" />
+          <Column Table="TBLCAHAR" Name="BAKIYE" />
+          <Column Table="TBLCAHAR" Name="DOVIZ_TURU" />
+          <Column Table="TBLCAHAR" Name="DOVIZ_TUTAR" />
+          <Column Table="TBLCAHAR" Name="RAPOR_KODU" />
+          <Column Table="TBLCAHAR" Name="F9SC" />
+          <Column Table="TBLCAHAR" Name="HAREKET_TURU" />
+          <Column Table="TBLCAHAR" Name="MIKTAR" />
+          <Column Table="TBLCAHAR" Name="ILAVE_RAPOR_KODU" />
+          <Column Table="TBLCAHAR" Name="UPDATE_KODU" />
+          <Column Table="TBLCAHAR" Name="KAPATILMIS_TUTAR" />
+          <Column Table="TBLCAHAR" Name="ODEME_GUNU" />
+          <Column Table="TBLCAHAR" Name="FIRMA_DOVIZ_TIPI" />
+          <Column Table="TBLCAHAR" Name="FIRMA_DOVIZ_TUTARI" />
+          <Column Table="TBLCAHAR" Name="PLASIYER_KODU" />
+          <Column Table="TBLCAHAR" Name="ENT_REF_KEY" />
+          <Column Table="TBLCAHAR" Name="INC_KEY_NUMBER" />
+          <Column Table="TBLCAHAR" Name="RAPOR_KODU2" />
+          <Column Table="TBLCAHAR" Name="DUZELTMETARIHI" />
+          <Column Table="TBLCAHAR" Name="S_YEDEK1" />
+          <Column Table="TBLCAHAR" Name="S_YEDEK2" />
+          <Column Table="TBLCAHAR" Name="F_YEDEK1" />
+          <Column Table="TBLCAHAR" Name="F_YEDEK2" />
+          <Column Table="TBLCAHAR" Name="C_YEDEK1" />
+          <Column Table="TBLCAHAR" Name="C_YEDEK2" />
+          <Column Table="TBLCAHAR" Name="B_YEDEK1" />
+          <Column Table="TBLCAHAR" Name="I_YEDEK1" />
+          <Column Table="TBLCAHAR" Name="L_YEDEK1" />
+          <Column Table="TBLCAHAR" Name="D_YEDEK1" />
+          <Column Table="TBLCAHAR" Name="PROJE_KODU" />
+          <Column Table="TBLCAHAR" Name="ONAYTIPI" />
+          <Column Table="TBLCAHAR" Name="ONAYNUM" />
+          <Column Table="TBLCAHAR" Name="BAGLANTI_NO" />
+          <Column Table="TBLCASABIT" Name="CARI_KOD" Alias="TBLCASABIT_CARI_KOD" />
+          <Column Table="TBLCASABIT" Name="CARI_IL" />
+          <Column Table="TBLCASABIT" Name="ULKE_KODU" />
+          <Column Table="TBLCASABIT" Name="GRUP_KODU" />
+          <Column Table="TBLCASABIT" Name="CARI_ISIM" />
+          <Column Table="TBLCASABIT" Name="CARI_TIP" />
+        </Columns>
+      </Query>
+      <Query Type="SelectQuery" Name="TBLKASA">
+        <Tables>
+          <Table Name="TBLKASA" />
+        </Tables>
+        <Columns>
+          <Column Table="TBLKASA" Name="KSMAS_KOD" />
+          <Column Table="TBLKASA" Name="TARIH" />
+          <Column Table="TBLKASA" Name="FISNO" />
+          <Column Table="TBLKASA" Name="IO" />
+          <Column Table="TBLKASA" Name="TIP" />
+          <Column Table="TBLKASA" Name="ACIKLAMA" />
+          <Column Table="TBLKASA" Name="TUTAR" />
+          <Column Table="TBLKASA" Name="CARI_MUH" />
+          <Column Table="TBLKASA" Name="KOD" />
+          <Column Table="TBLKASA" Name="DOVIZTUT" />
+          <Column Table="TBLKASA" Name="KUR" />
+          <Column Table="TBLKASA" Name="PLASIYER_KODU" />
+          <Column Table="TBLKASA" Name="ODEMETURU" />
+          <Column Table="TBLKASA" Name="UPDATE_KODU" />
+          <Column Table="TBLKASA" Name="ZAMAN" />
+          <Column Table="TBLKASA" Name="KULL_ID" />
+          <Column Table="TBLKASA" Name="SIRA" />
+          <Column Table="TBLKASA" Name="SUBE_KODU" />
+          <Column Table="TBLKASA" Name="KREDI_KART_NO" />
+          <Column Table="TBLKASA" Name="KDV_ORAN" />
+          <Column Table="TBLKASA" Name="KDV_DAHIL" />
+          <Column Table="TBLKASA" Name="YEDEK1" />
+          <Column Table="TBLKASA" Name="YEDEK2" />
+          <Column Table="TBLKASA" Name="YEDEK3" />
+          <Column Table="TBLKASA" Name="YEDEK4" />
+          <Column Table="TBLKASA" Name="YEDEK5" />
+          <Column Table="TBLKASA" Name="YEDEK6" />
+          <Column Table="TBLKASA" Name="YEDEK7" />
+          <Column Table="TBLKASA" Name="YEDEK8" />
+          <Column Table="TBLKASA" Name="YEDEK9" />
+          <Column Table="TBLKASA" Name="YEDEK10" />
+          <Column Table="TBLKASA" Name="PROJE_KODU" />
+          <Column Table="TBLKASA" Name="KAYITYAPANKUL" />
+          <Column Table="TBLKASA" Name="KAYITTARIHI" />
+          <Column Table="TBLKASA" Name="DUZELTMEYAPANKUL" />
+          <Column Table="TBLKASA" Name="DUZELTMETARIHI" />
+          <Column Table="TBLKASA" Name="ONAYTIPI" />
+          <Column Table="TBLKASA" Name="ONAYNUM" />
+          <Column Table="TBLKASA" Name="KAYNAK" />
+          <Column Table="TBLKASA" Name="ENTEGREFKEY" />
+          <Column Table="TBLKASA" Name="KRTSOZMASINCKEYNO" />
+          <Column Table="TBLKASA" Name="TAKSIT" />
+          <Column Table="TBLKASA" Name="GECERLI" />
+          <Column Table="TBLKASA" Name="BFORMCARIKODU" />
+          <Column Table="TBLKASA" Name="REFKOD" />
+          <Column Table="TBLKASA" Name="INDKDV" />
+        </Columns>
+      </Query>
+      <Query Type="SelectQuery" Name="TBLBNKHESTRA">
+        <Tables>
+          <Table Name="TBLBNKHESTRA" />
+        </Tables>
+        <Columns>
+          <Column Table="TBLBNKHESTRA" Name="NETHESKODU" />
+          <Column Table="TBLBNKHESTRA" Name="HARTIPI" />
+          <Column Table="TBLBNKHESTRA" Name="TARIH" />
+          <Column Table="TBLBNKHESTRA" Name="HARTURU" />
+          <Column Table="TBLBNKHESTRA" Name="VADETARIH" />
+          <Column Table="TBLBNKHESTRA" Name="EFFEKTIFTARIH" />
+          <Column Table="TBLBNKHESTRA" Name="FAIZORAN" />
+          <Column Table="TBLBNKHESTRA" Name="BA" />
+          <Column Table="TBLBNKHESTRA" Name="PLASIYERKODU" />
+          <Column Table="TBLBNKHESTRA" Name="PROJEKODU" />
+          <Column Table="TBLBNKHESTRA" Name="ENTEGREFKEY" />
+          <Column Table="TBLBNKHESTRA" Name="INCKEYNO" />
+          <Column Table="TBLBNKHESTRA" Name="TUTAR" />
+          <Column Table="TBLBNKHESTRA" Name="DOVIZTIPI" />
+          <Column Table="TBLBNKHESTRA" Name="DOVIZTUTAR" />
+          <Column Table="TBLBNKHESTRA" Name="ACIKLAMA" />
+          <Column Table="TBLBNKHESTRA" Name="BELGENO" />
+          <Column Table="TBLBNKHESTRA" Name="KAYITYAPANKUL" />
+          <Column Table="TBLBNKHESTRA" Name="KAYITTARIHI" />
+          <Column Table="TBLBNKHESTRA" Name="SUBE_KODU" />
+          <Column Table="TBLBNKHESTRA" Name="OTOINCKEYNO" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK1" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK2" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK3" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK4" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK5" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK6" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK7" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK8" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK9" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK10" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK11" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK12" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK13" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK14" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK15" />
+          <Column Table="TBLBNKHESTRA" Name="YEDEK16" />
+          <Column Table="TBLBNKHESTRA" Name="ONAYTIPI" />
+          <Column Table="TBLBNKHESTRA" Name="ONAYNUM" />
+          <Column Table="TBLBNKHESTRA" Name="OTOSIRANO" />
+          <Column Table="TBLBNKHESTRA" Name="BNKKSTINCKEYNO" />
+          <Column Table="TBLBNKHESTRA" Name="LIBORORAN" />
+          <Column Table="TBLBNKHESTRA" Name="SPREADORAN" />
+          <Column Table="TBLBNKHESTRA" Name="IHRACAT" />
+          <Column Table="TBLBNKHESTRA" Name="TAKSIT" />
+          <Column Table="TBLBNKHESTRA" Name="DONEM" />
+          <Column Table="TBLBNKHESTRA" Name="TAKSITTUTAR" />
+          <Column Table="TBLBNKHESTRA" Name="TAKSITDOVTUTAR" />
+          <Column Table="TBLBNKHESTRA" Name="KALANTUTAR" />
+          <Column Table="TBLBNKHESTRA" Name="KALANDOVTUTAR" />
+          <Column Table="TBLBNKHESTRA" Name="HANGITAKSIT" />
+        </Columns>
+      </Query>
+      <Query Type="SelectQuery" Name="TBLSTSABIT">
+        <Tables>
+          <Table Name="TBLSTSABIT" />
+        </Tables>
+        <Columns>
+          <Column Table="TBLSTSABIT" Name="SUBE_KODU" />
+          <Column Table="TBLSTSABIT" Name="ISLETME_KODU" />
+          <Column Table="TBLSTSABIT" Name="STOK_KODU" />
+          <Column Table="TBLSTSABIT" Name="URETICI_KODU" />
+          <Column Table="TBLSTSABIT" Name="STOK_ADI" />
+          <Column Table="TBLSTSABIT" Name="GRUP_KODU" />
+          <Column Table="TBLSTSABIT" Name="KOD_1" />
+          <Column Table="TBLSTSABIT" Name="KOD_2" />
+          <Column Table="TBLSTSABIT" Name="KOD_3" />
+          <Column Table="TBLSTSABIT" Name="KOD_4" />
+          <Column Table="TBLSTSABIT" Name="KOD_5" />
+          <Column Table="TBLSTSABIT" Name="SATICI_KODU" />
+          <Column Table="TBLSTSABIT" Name="OLCU_BR1" />
+          <Column Table="TBLSTSABIT" Name="OLCU_BR2" />
+          <Column Table="TBLSTSABIT" Name="PAY_1" />
+          <Column Table="TBLSTSABIT" Name="PAYDA_1" />
+          <Column Table="TBLSTSABIT" Name="OLCU_BR3" />
+          <Column Table="TBLSTSABIT" Name="PAY2" />
+          <Column Table="TBLSTSABIT" Name="PAYDA2" />
+          <Column Table="TBLSTSABIT" Name="FIAT_BIRIMI" />
+          <Column Table="TBLSTSABIT" Name="AZAMI_STOK" />
+          <Column Table="TBLSTSABIT" Name="ASGARI_STOK" />
+          <Column Table="TBLSTSABIT" Name="TEMIN_SURESI" />
+          <Column Table="TBLSTSABIT" Name="KUL_MIK" />
+          <Column Table="TBLSTSABIT" Name="RISK_SURESI" />
+          <Column Table="TBLSTSABIT" Name="ZAMAN_BIRIMI" />
+          <Column Table="TBLSTSABIT" Name="SATIS_FIAT1" />
+          <Column Table="TBLSTSABIT" Name="SATIS_FIAT2" />
+          <Column Table="TBLSTSABIT" Name="SATIS_FIAT3" />
+          <Column Table="TBLSTSABIT" Name="SATIS_FIAT4" />
+          <Column Table="TBLSTSABIT" Name="SAT_DOV_TIP" />
+          <Column Table="TBLSTSABIT" Name="DOV_ALIS_FIAT" />
+          <Column Table="TBLSTSABIT" Name="DOV_MAL_FIAT" />
+          <Column Table="TBLSTSABIT" Name="DOV_SATIS_FIAT" />
+          <Column Table="TBLSTSABIT" Name="MUH_DETAYKODU" />
+          <Column Table="TBLSTSABIT" Name="BIRIM_AGIRLIK" />
+          <Column Table="TBLSTSABIT" Name="NAKLIYET_TUT" />
+          <Column Table="TBLSTSABIT" Name="KDV_ORANI" />
+          <Column Table="TBLSTSABIT" Name="ALIS_DOV_TIP" />
+          <Column Table="TBLSTSABIT" Name="DEPO_KODU" />
+          <Column Table="TBLSTSABIT" Name="DOV_TUR" />
+          <Column Table="TBLSTSABIT" Name="URET_OLCU_BR" />
+          <Column Table="TBLSTSABIT" Name="BILESENMI" />
+          <Column Table="TBLSTSABIT" Name="MAMULMU" />
+          <Column Table="TBLSTSABIT" Name="FORMUL_TOPLAMI" />
+          <Column Table="TBLSTSABIT" Name="UPDATE_KODU" />
+          <Column Table="TBLSTSABIT" Name="MAX_ISKONTO" />
+          <Column Table="TBLSTSABIT" Name="ECZACI_KARI" />
+          <Column Table="TBLSTSABIT" Name="MIKTAR" />
+          <Column Table="TBLSTSABIT" Name="MAL_FAZLASI" />
+          <Column Table="TBLSTSABIT" Name="KDV_TENZIL_ORAN" />
+          <Column Table="TBLSTSABIT" Name="KILIT" />
+          <Column Table="TBLSTSABIT" Name="ONCEKI_KOD" />
+          <Column Table="TBLSTSABIT" Name="SONRAKI_KOD" />
+          <Column Table="TBLSTSABIT" Name="BARKOD1" />
+          <Column Table="TBLSTSABIT" Name="BARKOD2" />
+          <Column Table="TBLSTSABIT" Name="BARKOD3" />
+          <Column Table="TBLSTSABIT" Name="ALIS_KDV_KODU" />
+          <Column Table="TBLSTSABIT" Name="ALIS_FIAT1" />
+          <Column Table="TBLSTSABIT" Name="ALIS_FIAT2" />
+          <Column Table="TBLSTSABIT" Name="ALIS_FIAT3" />
+          <Column Table="TBLSTSABIT" Name="ALIS_FIAT4" />
+          <Column Table="TBLSTSABIT" Name="LOT_SIZE" />
+          <Column Table="TBLSTSABIT" Name="MIN_SIP_MIKTAR" />
+          <Column Table="TBLSTSABIT" Name="SABIT_SIP_ARALIK" />
+          <Column Table="TBLSTSABIT" Name="SIP_POLITIKASI" />
+          <Column Table="TBLSTSABIT" Name="OZELLIK_KODU1" />
+          <Column Table="TBLSTSABIT" Name="OZELLIK_KODU2" />
+          <Column Table="TBLSTSABIT" Name="OZELLIK_KODU3" />
+          <Column Table="TBLSTSABIT" Name="OZELLIK_KODU4" />
+          <Column Table="TBLSTSABIT" Name="OZELLIK_KODU5" />
+          <Column Table="TBLSTSABIT" Name="OPSIYON_KODU1" />
+          <Column Table="TBLSTSABIT" Name="OPSIYON_KODU2" />
+          <Column Table="TBLSTSABIT" Name="OPSIYON_KODU3" />
+          <Column Table="TBLSTSABIT" Name="OPSIYON_KODU4" />
+          <Column Table="TBLSTSABIT" Name="OPSIYON_KODU5" />
+          <Column Table="TBLSTSABIT" Name="BILESEN_OP_KODU" />
+          <Column Table="TBLSTSABIT" Name="SIP_VER_MAL" />
+          <Column Table="TBLSTSABIT" Name="ELDE_BUL_MAL" />
+          <Column Table="TBLSTSABIT" Name="YIL_TAH_KUL_MIK" />
+          <Column Table="TBLSTSABIT" Name="EKON_SIP_MIKTAR" />
+          <Column Table="TBLSTSABIT" Name="ESKI_RECETE" />
+          <Column Table="TBLSTSABIT" Name="OTOMATIK_URETIM" />
+          <Column Table="TBLSTSABIT" Name="ALFKOD" />
+          <Column Table="TBLSTSABIT" Name="SAFKOD" />
+          <Column Table="TBLSTSABIT" Name="KODTURU" />
+          <Column Table="TBLSTSABIT" Name="S_YEDEK1" />
+          <Column Table="TBLSTSABIT" Name="S_YEDEK2" />
+          <Column Table="TBLSTSABIT" Name="F_YEDEK3" />
+          <Column Table="TBLSTSABIT" Name="F_YEDEK4" />
+          <Column Table="TBLSTSABIT" Name="C_YEDEK5" />
+          <Column Table="TBLSTSABIT" Name="C_YEDEK6" />
+          <Column Table="TBLSTSABIT" Name="B_YEDEK7" />
+          <Column Table="TBLSTSABIT" Name="I_YEDEK8" />
+          <Column Table="TBLSTSABIT" Name="L_YEDEK9" />
+          <Column Table="TBLSTSABIT" Name="D_YEDEK10" />
+          <Column Table="TBLSTSABIT" Name="GIRIS_SERI" />
+          <Column Table="TBLSTSABIT" Name="CIKIS_SERI" />
+          <Column Table="TBLSTSABIT" Name="SERI_BAK" />
+          <Column Table="TBLSTSABIT" Name="SERI_MIK" />
+          <Column Table="TBLSTSABIT" Name="SERI_GIR_OT" />
+          <Column Table="TBLSTSABIT" Name="SERI_CIK_OT" />
+          <Column Table="TBLSTSABIT" Name="SERI_BASLANGIC" />
+          <Column Table="TBLSTSABIT" Name="FIYATKODU" />
+          <Column Table="TBLSTSABIT" Name="FIYATSIRASI" />
+          <Column Table="TBLSTSABIT" Name="PLANLANACAK" />
+          <Column Table="TBLSTSABIT" Name="LOT_SIZECUSTOMER" />
+          <Column Table="TBLSTSABIT" Name="MIN_SIP_MIKTARCUSTOMER" />
+          <Column Table="TBLSTSABIT" Name="GUMRUKTARIFEKODU" />
+          <Column Table="TBLSTSABIT" Name="ABCKODU" />
+          <Column Table="TBLSTSABIT" Name="PERFORMANSKODU" />
+          <Column Table="TBLSTSABIT" Name="SATICISIPKILIT" />
+          <Column Table="TBLSTSABIT" Name="MUSTERISIPKILIT" />
+          <Column Table="TBLSTSABIT" Name="SATINALMAKILIT" />
+          <Column Table="TBLSTSABIT" Name="SATISKILIT" />
+          <Column Table="TBLSTSABIT" Name="EN" />
+          <Column Table="TBLSTSABIT" Name="BOY" />
+          <Column Table="TBLSTSABIT" Name="GENISLIK" />
+          <Column Table="TBLSTSABIT" Name="SIPLIMITVAR" />
+          <Column Table="TBLSTSABIT" Name="SONSTOKKODU" />
+          <Column Table="TBLSTSABIT" Name="ONAYTIPI" />
+          <Column Table="TBLSTSABIT" Name="ONAYNUM" />
+          <Column Table="TBLSTSABIT" Name="FIKTIF_MAM" />
+          <Column Table="TBLSTSABIT" Name="YAPILANDIR" />
+          <Column Table="TBLSTSABIT" Name="SBOMVARMI" />
+          <Column Table="TBLSTSABIT" Name="BAGLISTOKKOD" />
+          <Column Table="TBLSTSABIT" Name="YAPKOD" />
+          <Column Table="TBLSTSABIT" Name="ALISTALTEKKILIT" />
+          <Column Table="TBLSTSABIT" Name="SATISTALTEKKILIT" />
+          <Column Table="TBLSTSABIT" Name="S_YEDEK3" />
+          <Column Table="TBLSTSABIT" Name="STOKMEVZUAT" />
+          <Column Table="TBLSTSABIT" Name="OTVTEVKIFAT" />
+          <Column Table="TBLSTSABIT" Name="SERIBARKOD" />
+          <Column Table="TBLSTSABIT" Name="ATIK_URUN" />
+        </Columns>
+      </Query>
+      <Query Type="SelectQuery" Name="WEB_TOPLU_STOKHAREKET">
+        <Tables>
+          <Table Name="WEB_TOPLU_STOKHAREKET" />
+        </Tables>
+        <Columns>
+          <Column Table="WEB_TOPLU_STOKHAREKET" Name="STOK_KODU" />
+          <Column Table="WEB_TOPLU_STOKHAREKET" Name="STHAR_TARIH" />
+          <Column Table="WEB_TOPLU_STOKHAREKET" Name="FISNO" />
+          <Column Table="WEB_TOPLU_STOKHAREKET" Name="STHAR_GCKOD" />
+          <Column Table="WEB_TOPLU_STOKHAREKET" Name="STHAR_GCMIK" />
+          <Column Table="WEB_TOPLU_STOKHAREKET" Name="STHAR_NF" />
+          <Column Table="WEB_TOPLU_STOKHAREKET" Name="STHAR_BF" />
+          <Column Table="WEB_TOPLU_STOKHAREKET" Name="STHAR_DOVTIP" />
+          <Column Table="WEB_TOPLU_STOKHAREKET" Name="STHAR_DOVFIAT" />
+          <Column Table="WEB_TOPLU_STOKHAREKET" Name="STHAR_FTIRSIP" />
+        </Columns>
+      </Query>
+      <Query Type="SelectQuery" Name="TBLSTHAR">
+        <Tables>
+          <Table Name="TBLSTHAR" />
+        </Tables>
+        <Columns>
+          <Column Table="TBLSTHAR" Name="STOK_KODU" />
+          <Column Table="TBLSTHAR" Name="FISNO" />
+          <Column Table="TBLSTHAR" Name="STHAR_GCMIK" />
+          <Column Table="TBLSTHAR" Name="STHAR_GCMIK2" />
+          <Column Table="TBLSTHAR" Name="CEVRIM" />
+          <Column Table="TBLSTHAR" Name="STHAR_GCKOD" />
+          <Column Table="TBLSTHAR" Name="STHAR_TARIH" />
+          <Column Table="TBLSTHAR" Name="STHAR_NF" />
+          <Column Table="TBLSTHAR" Name="STHAR_BF" />
+          <Column Table="TBLSTHAR" Name="STHAR_IAF" />
+          <Column Table="TBLSTHAR" Name="STHAR_KDV" />
+          <Column Table="TBLSTHAR" Name="DEPO_KODU" />
+          <Column Table="TBLSTHAR" Name="STHAR_ACIKLAMA" />
+          <Column Table="TBLSTHAR" Name="STHAR_SATISK" />
+          <Column Table="TBLSTHAR" Name="STHAR_MALFISK" />
+          <Column Table="TBLSTHAR" Name="STHAR_FTIRSIP" />
+          <Column Table="TBLSTHAR" Name="STHAR_SATISK2" />
+          <Column Table="TBLSTHAR" Name="LISTE_FIAT" />
+          <Column Table="TBLSTHAR" Name="STHAR_HTUR" />
+          <Column Table="TBLSTHAR" Name="STHAR_DOVTIP" />
+          <Column Table="TBLSTHAR" Name="PROMASYON_KODU" />
+          <Column Table="TBLSTHAR" Name="STHAR_DOVFIAT" />
+          <Column Table="TBLSTHAR" Name="STHAR_ODEGUN" />
+          <Column Table="TBLSTHAR" Name="STRA_SATISK3" />
+          <Column Table="TBLSTHAR" Name="STRA_SATISK4" />
+          <Column Table="TBLSTHAR" Name="STRA_SATISK5" />
+          <Column Table="TBLSTHAR" Name="STRA_SATISK6" />
+          <Column Table="TBLSTHAR" Name="STHAR_BGTIP" />
+          <Column Table="TBLSTHAR" Name="STHAR_KOD1" />
+          <Column Table="TBLSTHAR" Name="STHAR_KOD2" />
+          <Column Table="TBLSTHAR" Name="STHAR_SIPNUM" />
+          <Column Table="TBLSTHAR" Name="STHAR_CARIKOD" />
+          <Column Table="TBLSTHAR" Name="STHAR_SIP_TURU" />
+          <Column Table="TBLSTHAR" Name="PLASIYER_KODU" />
+          <Column Table="TBLSTHAR" Name="EKALAN_NEDEN" />
+          <Column Table="TBLSTHAR" Name="EKALAN" />
+          <Column Table="TBLSTHAR" Name="EKALAN1" />
+          <Column Table="TBLSTHAR" Name="REDMIK" />
+          <Column Table="TBLSTHAR" Name="REDNEDEN" />
+          <Column Table="TBLSTHAR" Name="SIRA" />
+          <Column Table="TBLSTHAR" Name="STRA_SIPKONT" />
+          <Column Table="TBLSTHAR" Name="AMBAR_KABULNO" />
+          <Column Table="TBLSTHAR" Name="FIRMA_DOVTIP" />
+          <Column Table="TBLSTHAR" Name="FIRMA_DOVTUT" />
+          <Column Table="TBLSTHAR" Name="FIRMA_DOVMAL" />
+          <Column Table="TBLSTHAR" Name="UPDATE_KODU" />
+          <Column Table="TBLSTHAR" Name="IRSALIYE_NO" />
+          <Column Table="TBLSTHAR" Name="IRSALIYE_TARIH" />
+          <Column Table="TBLSTHAR" Name="KOSULKODU" />
+          <Column Table="TBLSTHAR" Name="ECZA_FAT_TIP" />
+          <Column Table="TBLSTHAR" Name="STHAR_TESTAR" />
+          <Column Table="TBLSTHAR" Name="OLCUBR" />
+          <Column Table="TBLSTHAR" Name="INCKEYNO" />
+          <Column Table="TBLSTHAR" Name="VADE_TARIHI" />
+          <Column Table="TBLSTHAR" Name="LISTE_NO" />
+          <Column Table="TBLSTHAR" Name="BAGLANTI_NO" />
+          <Column Table="TBLSTHAR" Name="SUBE_KODU" />
+          <Column Table="TBLSTHAR" Name="MUH_KODU" />
+          <Column Table="TBLSTHAR" Name="S_YEDEK1" />
+          <Column Table="TBLSTHAR" Name="S_YEDEK2" />
+          <Column Table="TBLSTHAR" Name="F_YEDEK3" />
+          <Column Table="TBLSTHAR" Name="F_YEDEK4" />
+          <Column Table="TBLSTHAR" Name="F_YEDEK5" />
+          <Column Table="TBLSTHAR" Name="C_YEDEK6" />
+          <Column Table="TBLSTHAR" Name="B_YEDEK7" />
+          <Column Table="TBLSTHAR" Name="I_YEDEK8" />
+          <Column Table="TBLSTHAR" Name="L_YEDEK9" />
+          <Column Table="TBLSTHAR" Name="D_YEDEK10" />
+          <Column Table="TBLSTHAR" Name="PROJE_KODU" />
+          <Column Table="TBLSTHAR" Name="FIYATTARIHI" />
+          <Column Table="TBLSTHAR" Name="KOSULTARIHI" />
+          <Column Table="TBLSTHAR" Name="SATISK1TIP" />
+          <Column Table="TBLSTHAR" Name="SATISK2TIP" />
+          <Column Table="TBLSTHAR" Name="SATISK3TIP" />
+          <Column Table="TBLSTHAR" Name="SATISK4TIP" />
+          <Column Table="TBLSTHAR" Name="SATISK5TIP" />
+          <Column Table="TBLSTHAR" Name="SATISK6TIP" />
+          <Column Table="TBLSTHAR" Name="EXPORTTYPE" />
+          <Column Table="TBLSTHAR" Name="EXPORTMIK" />
+          <Column Table="TBLSTHAR" Name="DUZELTMETARIHI" />
+          <Column Table="TBLSTHAR" Name="ONAYTIPI" />
+          <Column Table="TBLSTHAR" Name="ONAYNUM" />
+          <Column Table="TBLSTHAR" Name="KKMALF" />
+          <Column Table="TBLSTHAR" Name="STRA_IRSKONT" />
+          <Column Table="TBLSTHAR" Name="YAPKOD" />
+          <Column Table="TBLSTHAR" Name="MAMYAPKOD" />
+          <Column Table="TBLSTHAR" Name="OTVFIYAT" />
+          <Column Table="TBLSTHAR" Name="IRS_INCKEYNO" />
+          <Column Table="TBLSTHAR" Name="YEDEK11" />
+          <Column Table="TBLSTHAR" Name="YEDEK12" />
+          <Column Table="TBLSTHAR" Name="YEDEK13" />
+          <Column Table="TBLSTHAR" Name="YEDEK14" />
+          <Column Table="TBLSTHAR" Name="YEDEK15" />
+          <Column Table="TBLSTHAR" Name="YEDEK16" />
+          <Column Table="TBLSTHAR" Name="YEDEK17" />
+          <Column Table="TBLSTHAR" Name="YEDEK18" />
+          <Column Table="TBLSTHAR" Name="YEDEK19" />
+          <Column Table="TBLSTHAR" Name="YEDEK20" />
+        </Columns>
+      </Query>
+      <Query Type="SelectQuery" Name="WEB_CARIDEVIR">
+        <Tables>
+          <Table Name="WEB_CARIDEVIR" />
+        </Tables>
+        <Columns>
+          <Column Table="WEB_CARIDEVIR" Name="CARI_KOD" />
+          <Column Table="WEB_CARIDEVIR" Name="CARI_ISIM" />
+          <Column Table="WEB_CARIDEVIR" Name="B2021" />
+          <Column Table="WEB_CARIDEVIR" Name="B2022" />
+          <Column Table="WEB_CARIDEVIR" Name="FARK" />
+        </Columns>
+      </Query>
+      <Query Type="SelectQuery" Name="WEB_STOKHAREKET">
+        <Tables>
+          <Table Name="WEB_STOKHAREKET" />
+        </Tables>
+        <Columns>
+          <Column Table="WEB_STOKHAREKET" Name="STOK_KODU" />
+          <Column Table="WEB_STOKHAREKET" Name="STOK_ADI" />
+          <Column Table="WEB_STOKHAREKET" Name="DEVIR" />
+          <Column Table="WEB_STOKHAREKET" Name="ALIS" />
+          <Column Table="WEB_STOKHAREKET" Name="G_TOPLAM" />
+          <Column Table="WEB_STOKHAREKET" Name="SATIS" />
+          <Column Table="WEB_STOKHAREKET" Name="DEPO" />
+          <Column Table="WEB_STOKHAREKET" Name="C_TOPLAM" />
+          <Column Table="WEB_STOKHAREKET" Name="BAKIYE" />
+          <Column Table="WEB_STOKHAREKET" Name="DEPO_KODU" />
+          <Column Table="WEB_STOKHAREKET" Name="doviz_fiat" />
+        </Columns>
+      </Query>
+      <Query Type="SelectQuery" Name="WEB_ALACAK_AND_BORCCEKLERI">
+        <Tables>
+          <Table Name="WEB_ALACAK_TL" />
+          <Table Name="WEB_BORCCEKLERI" />
+          <Relation Type="Inner" Parent="WEB_ALACAK_TL" Nested="WEB_BORCCEKLERI">
+            <KeyColumn Parent="CariIsim" Nested="CARI_ISIM" />
+          </Relation>
+        </Tables>
+        <Columns>
+          <Column Table="WEB_ALACAK_TL" Name="Tur" />
+          <Column Table="WEB_ALACAK_TL" Name="CariKod" />
+          <Column Table="WEB_ALACAK_TL" Name="CariIsim" />
+          <Column Table="WEB_ALACAK_TL" Name="Borc" />
+          <Column Table="WEB_ALACAK_TL" Name="Alacak" />
+          <Column Table="WEB_ALACAK_TL" Name="Bakiye" />
+          <Column Table="WEB_BORCCEKLERI" Name="CARI_ISIM" />
+          <Column Table="WEB_BORCCEKLERI" Name="CEK_NO" />
+          <Column Table="WEB_BORCCEKLERI" Name="VADE_TARIHI" />
+          <Column Table="WEB_BORCCEKLERI" Name="TUTAR" />
+          <Column Table="WEB_BORCCEKLERI" Name="BANKA" />
+          <Column Table="WEB_BORCCEKLERI" Name="AY" />
+          <Column Table="WEB_BORCCEKLERI" Name="SC_SONDUR" />
+        </Columns>
+      </Query>
+      <Query Type="SelectQuery" Name="WEB_BORCCEKLERI">
+        <Tables>
+          <Table Name="WEB_BORCCEKLERI" />
+        </Tables>
+        <Columns>
+          <Column Table="WEB_BORCCEKLERI" Name="CEK_NO" />
+          <Column Table="WEB_BORCCEKLERI" Name="CARI_ISIM" />
+          <Column Table="WEB_BORCCEKLERI" Name="VADE_TARIHI" />
+          <Column Table="WEB_BORCCEKLERI" Name="TUTAR" />
+          <Column Table="WEB_BORCCEKLERI" Name="BANKA" />
+          <Column Table="WEB_BORCCEKLERI" Name="AY" />
+          <Column Table="WEB_BORCCEKLERI" Name="SC_SONDUR" />
+        </Columns>
+      </Query>
+      <Query Type="SelectQuery" Name="WEB_DEPOHAR">
+        <Tables>
+          <Table Name="WEB_DEPOHAR" />
+        </Tables>
+        <Columns>
+          <Column Table="WEB_DEPOHAR" Name="DEPO_KODU" />
+          <Column Table="WEB_DEPOHAR" Name="STHAR_TARIH" />
+          <Column Table="WEB_DEPOHAR" Name="FISNO" />
+          <Column Table="WEB_DEPOHAR" Name="BARKOD3" />
+          <Column Table="WEB_DEPOHAR" Name="STOK_KODU" />
+          <Column Table="WEB_DEPOHAR" Name="STOK_ADI" />
+          <Column Table="WEB_DEPOHAR" Name="FIYAT" />
+          <Column Table="WEB_DEPOHAR" Name="MIKTAR" />
+        </Columns>
+      </Query>
+      <Query Type="SelectQuery" Name="WEB_ALACAK_TL">
+        <Tables>
+          <Table Name="WEB_ALACAK_TL" />
+        </Tables>
+        <Columns>
+          <Column Table="WEB_ALACAK_TL" Name="Tur" />
+          <Column Table="WEB_ALACAK_TL" Name="CariKod" />
+          <Column Table="WEB_ALACAK_TL" Name="CariIsim" />
+          <Column Table="WEB_ALACAK_TL" Name="Borc" />
+          <Column Table="WEB_ALACAK_TL" Name="Alacak" />
+          <Column Table="WEB_ALACAK_TL" Name="Bakiye" />
+        </Columns>
+      </Query>
+      <Query Type="SelectQuery" Name="WEB_RPR_BANKA_BAKIYE_1">
+        <Tables>
+          <Table Name="WEB_RPR_BANKA_BAKIYE_1" />
+        </Tables>
+        <Columns>
+          <AllColumns Table="WEB_RPR_BANKA_BAKIYE_1" />
+          <Column Table="WEB_RPR_BANKA_BAKIYE_1" Name="Tur" />
+          <Column Table="WEB_RPR_BANKA_BAKIYE_1" Name="HESAP_KODU" />
+          <Column Table="WEB_RPR_BANKA_BAKIYE_1" Name="ACIKLAMA" />
+          <Column Table="WEB_RPR_BANKA_BAKIYE_1" Name="DOVIZ_TIPI" />
+          <Column Table="WEB_RPR_BANKA_BAKIYE_1" Name="TL_BORC" />
+          <Column Table="WEB_RPR_BANKA_BAKIYE_1" Name="TL_ALACAK" />
+          <Column Table="WEB_RPR_BANKA_BAKIYE_1" Name="DOVIZ_BORC" />
+          <Column Table="WEB_RPR_BANKA_BAKIYE_1" Name="DOVIZ_ALACAK" />
+          <Column Table="WEB_RPR_BANKA_BAKIYE_1" Name="TL_BAKIYE" />
+          <Column Table="WEB_RPR_BANKA_BAKIYE_1" Name="DOLAR_BAKIYE" />
+          <Column Table="WEB_RPR_BANKA_BAKIYE_1" Name="EURO_BAKIYE" />
+        </Columns>
+      </Query>
+      <Query Type="SelectQuery" Name="WEB_SAYILAN_STOKLAR">
+        <Tables>
+          <Table Name="WEB_SAYILAN_STOKLAR" />
+        </Tables>
+        <Columns>
+          <Column Table="WEB_SAYILAN_STOKLAR" Name="STOK_KODU" />
+          <Column Table="WEB_SAYILAN_STOKLAR" Name="STOK_ADI" />
+          <Column Table="WEB_SAYILAN_STOKLAR" Name="MIKTAR" />
+          <Column Table="WEB_SAYILAN_STOKLAR" Name="TARIH" />
+        </Columns>
+      </Query>
+      <Query Type="SelectQuery" Name="WEB_SAYILMAYAN_STOKLAR">
+        <Tables>
+          <Table Name="WEB_SAYILMAYAN_STOKLAR" />
+        </Tables>
+        <Columns>
+          <Column Table="WEB_SAYILMAYAN_STOKLAR" Name="STOK_KODU" />
+          <Column Table="WEB_SAYILMAYAN_STOKLAR" Name="STOK_ADI" />
+          <Column Table="WEB_SAYILMAYAN_STOKLAR" Name="MIKTAR" />
+        </Columns>
+      </Query>
+      <Query Type="SelectQuery" Name="WEB_SIPARISHAREKET">
+        <Tables>
+          <Table Name="WEB_SIPARISHAREKET" />
+        </Tables>
+        <Columns>
+          <Column Table="WEB_SIPARISHAREKET" Name="DURUM" />
+          <Column Table="WEB_SIPARISHAREKET" Name="SIPARISNO" />
+          <Column Table="WEB_SIPARISHAREKET" Name="CARI_KOD" />
+          <Column Table="WEB_SIPARISHAREKET" Name="CARI_ISIM" />
+          <Column Table="WEB_SIPARISHAREKET" Name="UST_ACIKLAMA" />
+          <Column Table="WEB_SIPARISHAREKET" Name="STOK_KODU" />
+          <Column Table="WEB_SIPARISHAREKET" Name="STOK_ADI" />
+          <Column Table="WEB_SIPARISHAREKET" Name="SIP_TAR" />
+          <Column Table="WEB_SIPARISHAREKET" Name="NETFIAT" />
+          <Column Table="WEB_SIPARISHAREKET" Name="SIPMIKTARI" />
+          <Column Table="WEB_SIPARISHAREKET" Name="TESLIMMIKTAR" />
+          <Column Table="WEB_SIPARISHAREKET" Name="BAKIYE" />
+          <Column Table="WEB_SIPARISHAREKET" Name="GERCEKBAKIYE" />
+          <Column Table="WEB_SIPARISHAREKET" Name="TUTAR" />
+          <Column Table="WEB_SIPARISHAREKET" Name="PLAN_TES_TAR" />
+          <Column Table="WEB_SIPARISHAREKET" Name="TESLIM_BILGISI" />
+          <Column Table="WEB_SIPARISHAREKET" Name="SIRA" />
+        </Columns>
+      </Query>
+      <Query Type="SelectQuery" Name="WEB_STOKSATIS">
+        <Tables>
+          <Table Name="WEB_STOKSATIS" />
+        </Tables>
+        <Columns>
+          <Column Table="WEB_STOKSATIS" Name="DEPO_KODU" />
+          <Column Table="WEB_STOKSATIS" Name="STOK_KODU" />
+          <Column Table="WEB_STOKSATIS" Name="AY" />
+          <Column Table="WEB_STOKSATIS" Name="STOK_ADI" />
+          <Column Table="WEB_STOKSATIS" Name="STHAR_GCMIK" />
+          <Column Table="WEB_STOKSATIS" Name="STHAR_GCKOD" />
+        </Columns>
+      </Query>
+      <ConnectionOptions CloseConnection="true" />
+    </SqlDataSource>
+    <SqlDataSource Name="OPC" ComponentName="sqlDataSource5">
+      <Connection Name="OPC" FromAppConfig="true" />
+      <Query Type="SelectQuery" Name="opc_lantek">
+        <Tables>
+          <Table Name="opc_lantek" />
+        </Tables>
+        <Columns>
+          <Column Table="opc_lantek" Name="ID" />
+          <Column Table="opc_lantek" Name="cdate" />
+          <Column Table="opc_lantek" Name="jobname" />
+          <Column Table="opc_lantek" Name="JobRef" />
+          <Column Table="opc_lantek" Name="SThickness" />
+          <Column Table="opc_lantek" Name="CNC" />
+          <Column Table="opc_lantek" Name="SArea" />
+          <Column Table="opc_lantek" Name="SUArea" />
+          <Column Table="opc_lantek" Name="SWeight" />
+          <Column Table="opc_lantek" Name="SUWeight" />
+          <Column Table="opc_lantek" Name="SXMax" />
+          <Column Table="opc_lantek" Name="SYMax" />
+          <Column Table="opc_lantek" Name="SProfit" />
+          <Column Table="opc_lantek" Name="SProfitS" />
+          <Column Table="opc_lantek" Name="Quantity" />
+          <Column Table="opc_lantek" Name="SLength" />
+          <Column Table="opc_lantek" Name="SWidth" />
+          <Column Table="opc_lantek" Name="NOrder" />
+          <Column Table="opc_lantek" Name="ShtRef" />
+          <Column Table="opc_lantek" Name="ETime" />
+          <Column Table="opc_lantek" Name="ShtRefOrg" />
+          <Column Table="opc_lantek" Name="JobOrder" />
+          <Column Table="opc_lantek" Name="NstRef" />
+          <Column Table="opc_lantek" Name="MatRef" />
+          <Column Table="opc_lantek" Name="WrkRef" />
+          <Column Table="opc_lantek" Name="MatRef_1" />
+        </Columns>
+      </Query>
+      <Query Type="SelectQuery" Name="opc_lantek_parts">
+        <Tables>
+          <Table Name="opc_lantek_parts" />
+        </Tables>
+        <Columns>
+          <Column Table="opc_lantek_parts" Name="ID" />
+          <Column Table="opc_lantek_parts" Name="jobref" />
+          <Column Table="opc_lantek_parts" Name="jobname" />
+          <Column Table="opc_lantek_parts" Name="CNC" />
+          <Column Table="opc_lantek_parts" Name="nstref" />
+          <Column Table="opc_lantek_parts" Name="filepath" />
+          <Column Table="opc_lantek_parts" Name="WrkRef" />
+          <Column Table="opc_lantek_parts" Name="MatRef" />
+          <Column Table="opc_lantek_parts" Name="Quantity" />
+          <Column Table="opc_lantek_parts" Name="SThickness" />
+          <Column Table="opc_lantek_parts" Name="DIS_Length" />
+          <Column Table="opc_lantek_parts" Name="DIS_Width" />
+          <Column Table="opc_lantek_parts" Name="DIS_CutPerim" />
+          <Column Table="opc_lantek_parts" Name="DIS_Area" />
+          <Column Table="opc_lantek_parts" Name="DIS_ExtArea" />
+          <Column Table="opc_lantek_parts" Name="Weight" />
+          <Column Table="opc_lantek_parts" Name="DIS_ExtWeight" />
+          <Column Table="opc_lantek_parts" Name="DIS_RectWeight" />
+          <Column Table="opc_lantek_parts" Name="image_file_name" />
+        </Columns>
+      </Query>
+      <Query Type="SelectQuery" Name="opc_live_workcodes">
+        <Tables>
+          <Table Name="opc_live_workcodes" />
+        </Tables>
+        <Columns>
+          <Column Table="opc_live_workcodes" Name="ID" />
+          <Column Table="opc_live_workcodes" Name="mac_ID" />
+          <Column Table="opc_live_workcodes" Name="job_No" />
+          <Column Table="opc_live_workcodes" Name="rec_dt" />
+          <Column Table="opc_live_workcodes" Name="tarih" />
+          <Column Table="opc_live_workcodes" Name="saat" />
+        </Columns>
+      </Query>
+      <Query Type="SelectQuery" Name="Suretutwithmachines">
+        <Tables>
+          <Table Name="opc_machines" />
+          <Table Name="opc_suretut" />
+          <Relation Type="Inner" Parent="opc_machines" Nested="opc_suretut">
+            <KeyColumn Parent="ID" Nested="mak_ID" />
+          </Relation>
+        </Tables>
+        <Columns>
+          <Column Table="opc_machines" Name="ID" />
+          <Column Table="opc_machines" Name="machine_no" />
+          <Column Table="opc_machines" Name="machine_name" />
+          <Column Table="opc_machines" Name="machine_IP" />
+          <Column Table="opc_machines" Name="machine_nick" />
+          <Column Table="opc_machines" Name="machine_path" />
+          <Column Table="opc_machines" Name="machine_comment" />
+          <Column Table="opc_machines" Name="machine_Readable" />
+          <Column Table="opc_machines" Name="machine_workgroup" />
+          <Column Table="opc_machines" Name="machine_Wtype" />
+          <Column Table="opc_machines" Name="Machine_Askon_Name" />
+          <Column Table="opc_machines" Name="machine_project_code" />
+          <Column Table="opc_suretut" Name="ID" Alias="opc_suretut_ID" />
+          <Column Table="opc_suretut" Name="mak_ID" />
+          <Column Table="opc_suretut" Name="tarih" />
+          <Column Table="opc_suretut" Name="saat" />
+          <Column Table="opc_suretut" Name="aktif" />
+          <Column Table="opc_suretut" Name="erisimsiz" />
+          <Column Table="opc_suretut" Name="kesim" />
+          <Column Table="opc_suretut" Name="durus" />
+          <Column Table="opc_suretut" Name="finish" />
+          <Column Table="opc_suretut" Name="aciklama" />
+          <Column Table="opc_suretut" Name="ref_sayisal" />
+          <Column Table="opc_suretut" Name="ref_string" />
+          <Column Table="opc_suretut" Name="rec_dt" />
+          <Column Table="opc_suretut" Name="replica_ID" />
+          <Column Table="opc_suretut" Name="opc_suretut_zaman" />
+        </Columns>
+      </Query>
+      <ConnectionOptions CloseConnection="true" />
+    </SqlDataSource>
+  </DataSources>
+  <Parameters>
+    <Parameter Name="Parameter1">
+      <StaticListLookUpSettings>
+        <Values />
+      </StaticListLookUpSettings>
+    </Parameter>
+  </Parameters>
+  <Items>
+    <Grid ComponentName="gridDashboardItem1" Name="KASA" ParentContainer="dashboardTabPage1" DataSource="sqlDataSource1" DataMember="TBLKASA" IsMasterFilterCrossDataSource="true">
+      <InteractivityOptions IgnoreMasterFilters="true" MasterFilterMode="Single" IsDrillDownEnabled="true" />
+      <DataItems>
+        <Measure DataMember="TUTAR" DefaultId="DataItem0" />
+        <Dimension DataMember="TARIH" DateTimeGroupInterval="QuarterYear" DefaultId="DataItem1" />
+      </DataItems>
+      <GridColumns>
+        <GridMeasureColumn>
+          <Measure DefaultId="DataItem0" />
+        </GridMeasureColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem1" />
+        </GridDimensionColumn>
+      </GridColumns>
+      <GridOptions />
+      <ColumnFilterOptions UpdateTotals="true" />
+    </Grid>
+    <Pie ComponentName="pieDashboardItem1" Name="KASA GİRİŞ-ÇIKIŞ" ParentContainer="dashboardTabPage1" DataSource="sqlDataSource1" DataMember="TBLKASA">
+      <DataItems>
+        <Measure DataMember="TUTAR" SummaryType="Count" DefaultId="DataItem0" />
+        <Dimension DataMember="TARIH" DateTimeGroupInterval="QuarterYear" DefaultId="DataItem1" />
+        <Measure DataMember="DOVIZTUT" DefaultId="DataItem2" />
+      </DataItems>
+      <SeriesDimensions>
+        <SeriesDimension DefaultId="DataItem1" />
+      </SeriesDimensions>
+      <Values>
+        <Value DefaultId="DataItem0" />
+        <Value DefaultId="DataItem2" />
+      </Values>
+    </Pie>
+    <Chart ComponentName="chartDashboardItem3" Name="Chart 1" ParentContainer="dashboardTabPage1" DataSource="sqlDataSource1" DataMember="TBLKASA">
+      <InteractivityOptions IgnoreMasterFilters="true" MasterFilterMode="Single" />
+      <DataItems>
+        <Measure DataMember="TUTAR" DefaultId="DataItem0" />
+        <Dimension DataMember="TARIH" DateTimeGroupInterval="QuarterYear" DefaultId="DataItem1" />
+      </DataItems>
+      <SeriesDimensions>
+        <SeriesDimension DefaultId="DataItem1" />
+      </SeriesDimensions>
+      <Panes>
+        <Pane Name="Pane 1">
+          <Series>
+            <Simple>
+              <Value DefaultId="DataItem0" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+    </Chart>
+    <Chart ComponentName="chartDashboardItem1" Name="BANKA GİRİŞ-ÇIKIŞ" ParentContainer="dashboardTabPage1">
+      <InteractivityOptions MasterFilterMode="Single" />
+      <Panes>
+        <Pane Name="Pane 1" />
+      </Panes>
+    </Chart>
+    <TabContainer ComponentName="tabContainerDashboardItem1" Name="Tab Container 1">
+      <Pages>
+        <Page ComponentName="dashboardTabPage1" Name="KASA-BANKA" />
+        <Page ComponentName="dashboardTabPage2" Name="ALACAK-BORC" />
+        <Page ComponentName="dashboardTabPage3" Name="STOK BAKİYESİ" />
+        <Page ComponentName="dashboardTabPage4" Name="MAKİNALAR" />
+        <Page ComponentName="dashboardTabPage5" Name="TEST" />
+        <Page ComponentName="dashboardTabPage6" Name="STOK HAREKETİ" />
+        <Page ComponentName="dashboardTabPage7" Name="Page 1" />
+        <Page ComponentName="dashboardTabPage8" Name="Page 2" />
+        <Page ComponentName="dashboardTabPage9" Name="Page 3" />
+      </Pages>
+    </TabContainer>
+    <Grid ComponentName="gridDashboardItem3" Name="Grid 1" ParentContainer="dashboardTabPage2" DataSource="sqlDataSource1" DataMember="TBLCAHAR">
+      <InteractivityOptions MasterFilterMode="Single" />
+      <DataItems>
+        <Measure DataMember="BORC" DefaultId="DataItem0">
+          <NumericFormat FormatType="Number" Unit="Millions" />
+        </Measure>
+        <Measure DataMember="ALACAK" DefaultId="DataItem1" />
+        <Dimension DataMember="TARIH" DateTimeGroupInterval="Month" DefaultId="DataItem2">
+          <DateTimeFormat YearFormat="Full" />
+        </Dimension>
+      </DataItems>
+      <GridColumns>
+        <GridMeasureColumn>
+          <Measure DefaultId="DataItem0" />
+        </GridMeasureColumn>
+        <GridMeasureColumn>
+          <Measure DefaultId="DataItem1" />
+        </GridMeasureColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem2" />
+        </GridDimensionColumn>
+      </GridColumns>
+      <GridOptions />
+      <ColumnFilterOptions />
+    </Grid>
+    <Chart ComponentName="chartDashboardItem2" Name="STOK KUTU" ParentContainer="dashboardTabPage2" DataSource="sqlDataSource1" DataMember="TBLCAHAR">
+      <InteractivityOptions MasterFilterMode="Single" />
+      <DataItems>
+        <Measure DataMember="BORC" DefaultId="DataItem0" />
+        <Measure DataMember="ALACAK" DefaultId="DataItem1" />
+      </DataItems>
+      <Panes>
+        <Pane Name="Pane 1">
+          <Series>
+            <Simple>
+              <Value DefaultId="DataItem0" />
+            </Simple>
+            <Simple>
+              <Value DefaultId="DataItem1" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+    </Chart>
+    <Grid ComponentName="gridDashboardItem4" Name="Grid 2" ParentContainer="dashboardTabPage3" DataSource="sqlDataSource1" DataMember="TBLSTHAR">
+      <InteractivityOptions MasterFilterMode="Single" />
+      <DataItems>
+        <Dimension DataMember="STHAR_TARIH" DateTimeGroupInterval="QuarterYear" DefaultId="DataItem1" />
+        <Measure DataMember="STHAR_GCMIK" DefaultId="DataItem0" />
+        <Dimension DataMember="STOK_KODU" DefaultId="DataItem2" />
+      </DataItems>
+      <HiddenDimensions>
+        <Dimension DefaultId="DataItem2" />
+      </HiddenDimensions>
+      <GridColumns>
+        <GridDimensionColumn Name="Tarih">
+          <Dimension DefaultId="DataItem1" />
+        </GridDimensionColumn>
+        <GridMeasureColumn>
+          <Measure DefaultId="DataItem0" />
+        </GridMeasureColumn>
+      </GridColumns>
+      <GridOptions />
+      <ColumnFilterOptions />
+    </Grid>
+    <Grid ComponentName="gridDashboardItem5" Name="Grid 3" ParentContainer="dashboardTabPage2" DataSource="sqlDataSource1" DataMember="TBLCAHAR">
+      <InteractivityOptions MasterFilterMode="Single" />
+      <DataItems>
+        <Dimension DataMember="CARI_ISIM" DefaultId="DataItem0" />
+        <Dimension DataMember="CARI_KOD" DefaultId="DataItem1" />
+        <Measure DataMember="ALACAK" DefaultId="DataItem2" />
+        <Measure DataMember="BORC" DefaultId="DataItem3" />
+        <Dimension DataMember="TARIH" DefaultId="DataItem4" />
+      </DataItems>
+      <GridColumns>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem0" />
+        </GridDimensionColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem1" />
+        </GridDimensionColumn>
+        <GridMeasureColumn>
+          <Measure DefaultId="DataItem2" />
+        </GridMeasureColumn>
+        <GridMeasureColumn>
+          <Measure DefaultId="DataItem3" />
+        </GridMeasureColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem4" />
+        </GridDimensionColumn>
+      </GridColumns>
+      <GridOptions />
+      <ColumnFilterOptions />
+    </Grid>
+    <Pie ComponentName="pieDashboardItem2" Name="Pies 1" ParentContainer="dashboardTabPage2" DataSource="sqlDataSource1" DataMember="TBLCAHAR">
+      <InteractivityOptions MasterFilterMode="Single" />
+      <DataItems>
+        <Measure DataMember="BORC" DefaultId="DataItem0" />
+        <Measure DataMember="ALACAK" DefaultId="DataItem1" />
+        <Dimension DataMember="TARIH" DateTimeGroupInterval="Month" DefaultId="DataItem2" />
+      </DataItems>
+      <SeriesDimensions>
+        <SeriesDimension DefaultId="DataItem2" />
+      </SeriesDimensions>
+      <Values>
+        <Value DefaultId="DataItem0" />
+        <Value DefaultId="DataItem1" />
+      </Values>
+    </Pie>
+    <Pie ComponentName="pieDashboardItem3" Name="Pies 1" ParentContainer="dashboardTabPage3" DataSource="sqlDataSource1" DataMember="TBLSTHAR" ShowPieCaptions="false">
+      <DataItems>
+        <Measure DataMember="STHAR_GCMIK" DefaultId="DataItem0" />
+        <Dimension DataMember="STHAR_GCKOD" DefaultId="DataItem1" />
+      </DataItems>
+      <Arguments>
+        <Argument DefaultId="DataItem1" />
+      </Arguments>
+      <Values>
+        <Value DefaultId="DataItem0" />
+      </Values>
+    </Pie>
+    <Grid ComponentName="gridDashboardItem2" Name="Grid 1" ParentContainer="dashboardTabPage4" DataSource="sqlDataSource5" DataMember="Suretutwithmachines" IsMasterFilterCrossDataSource="true">
+      <InteractivityOptions MasterFilterMode="Multiple" />
+      <DataItems>
+        <Dimension DataMember="ID" DefaultId="DataItem0" />
+        <Dimension DataMember="machine_name" DefaultId="DataItem1" />
+        <Dimension DataMember="machine_nick" DefaultId="DataItem2" />
+        <Dimension DataMember="machine_no" DefaultId="DataItem3" />
+        <Dimension DataMember="Machine_Askon_Name" DefaultId="DataItem4" />
+        <Dimension DataMember="machine_IP" DefaultId="DataItem5" />
+        <Dimension DataMember="ID" DefaultId="DataItem6" />
+        <Measure DataMember="ID" DefaultId="DataItem7" />
+      </DataItems>
+      <HiddenDimensions>
+        <Dimension DefaultId="DataItem0" />
+      </HiddenDimensions>
+      <HiddenMeasures>
+        <Measure DefaultId="DataItem7" />
+      </HiddenMeasures>
+      <GridColumns>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem1" />
+        </GridDimensionColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem2" />
+        </GridDimensionColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem3" />
+        </GridDimensionColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem4" />
+        </GridDimensionColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem5" />
+        </GridDimensionColumn>
+      </GridColumns>
+      <SparklineArgument DefaultId="DataItem6" />
+      <GridOptions />
+      <ColumnFilterOptions />
+    </Grid>
+    <Chart ComponentName="chartDashboardItem4" Name="Chart 1" ParentContainer="dashboardTabPage4" DataSource="sqlDataSource5" DataMember="Suretutwithmachines">
+      <InteractivityOptions MasterFilterMode="Single" />
+      <DataItems>
+        <Measure DataMember="aktif" DefaultId="DataItem0" />
+        <Measure DataMember="durus" DefaultId="DataItem1" />
+        <Measure DataMember="erisimsiz" DefaultId="DataItem2" />
+        <Measure DataMember="finish" DefaultId="DataItem3" />
+        <Measure DataMember="kesim" DefaultId="DataItem4" />
+        <Measure DataMember="mak_ID" DefaultId="DataItem5" />
+      </DataItems>
+      <HiddenMeasures>
+        <Measure DefaultId="DataItem5" />
+      </HiddenMeasures>
+      <Panes>
+        <Pane Name="Pane 1">
+          <Series>
+            <Simple>
+              <Value DefaultId="DataItem0" />
+            </Simple>
+            <Simple>
+              <Value DefaultId="DataItem1" />
+            </Simple>
+            <Simple>
+              <Value DefaultId="DataItem2" />
+            </Simple>
+            <Simple>
+              <Value DefaultId="DataItem3" />
+            </Simple>
+            <Simple>
+              <Value DefaultId="DataItem4" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+    </Chart>
+    <Grid ComponentName="gridDashboardItem6" Name="Grid 1" ParentContainer="dashboardTabPage3" DataSource="sqlDataSource1" DataMember="WEB_TOPLU_STOKHAREKET">
+      <InteractivityOptions MasterFilterMode="Single" />
+      <DataItems>
+        <Dimension DataMember="STOK_KODU" DefaultId="DataItem0" />
+        <Measure DataMember="STHAR_GCMIK" DefaultId="DataItem1" />
+        <Dimension DataMember="STHAR_TARIH" DateTimeGroupInterval="Day" DefaultId="DataItem2" />
+        <Measure DataMember="STHAR_NF" DefaultId="DataItem4" />
+        <Measure DataMember="STHAR_BF" DefaultId="DataItem5" />
+        <Measure DataMember="STHAR_DOVTIP" DefaultId="DataItem3" />
+      </DataItems>
+      <GridColumns>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem0" />
+        </GridDimensionColumn>
+        <GridMeasureColumn>
+          <Measure DefaultId="DataItem1" />
+        </GridMeasureColumn>
+        <GridMeasureColumn>
+          <Measure DefaultId="DataItem4" />
+        </GridMeasureColumn>
+        <GridMeasureColumn>
+          <Measure DefaultId="DataItem5" />
+        </GridMeasureColumn>
+        <GridMeasureColumn>
+          <Measure DefaultId="DataItem3" />
+        </GridMeasureColumn>
+      </GridColumns>
+      <SparklineArgument DefaultId="DataItem2" />
+      <GridOptions ColumnWidthMode="Manual" />
+      <ColumnFilterOptions />
+    </Grid>
+    <Grid ComponentName="gridDashboardItem10" Name="Grid 5" ParentContainer="dashboardTabPage6" DataSource="sqlDataSource1" DataMember="WEB_SIPARISHAREKET">
+      <DataItems>
+        <Dimension DataMember="CARI_ISIM" DefaultId="DataItem0" />
+        <Dimension DataMember="DURUM" DefaultId="DataItem1" />
+        <Measure DataMember="BAKIYE" DefaultId="DataItem2" />
+        <Measure DataMember="GERCEKBAKIYE" DefaultId="DataItem3" />
+        <Measure DataMember="NETFIAT" DefaultId="DataItem4" />
+        <Measure DataMember="SIPMIKTARI" DefaultId="DataItem5" />
+        <Measure DataMember="TESLIMMIKTAR" DefaultId="DataItem6" />
+        <Measure DataMember="TUTAR" DefaultId="DataItem7" />
+      </DataItems>
+      <GridColumns>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem0" />
+        </GridDimensionColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem1" />
+        </GridDimensionColumn>
+        <GridMeasureColumn>
+          <Measure DefaultId="DataItem2" />
+        </GridMeasureColumn>
+        <GridMeasureColumn>
+          <Measure DefaultId="DataItem3" />
+        </GridMeasureColumn>
+        <GridMeasureColumn>
+          <Measure DefaultId="DataItem4" />
+        </GridMeasureColumn>
+        <GridMeasureColumn>
+          <Measure DefaultId="DataItem5" />
+        </GridMeasureColumn>
+        <GridMeasureColumn>
+          <Measure DefaultId="DataItem6" />
+        </GridMeasureColumn>
+        <GridMeasureColumn>
+          <Measure DefaultId="DataItem7" />
+        </GridMeasureColumn>
+      </GridColumns>
+      <GridOptions />
+      <ColumnFilterOptions />
+    </Grid>
+    <Pie ComponentName="pieDashboardItem4" Name="Pies 2" ParentContainer="dashboardTabPage6" DataSource="sqlDataSource1" DataMember="WEB_SIPARISHAREKET">
+      <DataItems>
+        <Dimension DataMember="DURUM" DefaultId="DataItem1" />
+        <Measure DataMember="CARI_ISIM" Name="SİPARİŞ DURUMLARI" SummaryType="Count" DefaultId="DataItem4" />
+      </DataItems>
+      <Arguments>
+        <Argument DefaultId="DataItem1" />
+      </Arguments>
+      <Values>
+        <Value DefaultId="DataItem4" />
+      </Values>
+    </Pie>
+    <Chart ComponentName="chartDashboardItem5" Name="Chart 2" ParentContainer="dashboardTabPage6" DataSource="sqlDataSource1" DataMember="WEB_SIPARISHAREKET">
+      <DataItems>
+        <Dimension DataMember="PLAN_TES_TAR" DateTimeGroupInterval="Month" DefaultId="DataItem0" />
+        <Measure DataMember="TUTAR" DefaultId="DataItem1" />
+      </DataItems>
+      <SeriesDimensions>
+        <SeriesDimension DefaultId="DataItem0" />
+      </SeriesDimensions>
+      <Panes>
+        <Pane Name="Pane 1">
+          <Series>
+            <Simple>
+              <Value DefaultId="DataItem1" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+    </Chart>
+    <Grid ComponentName="gridDashboardItem9" Name="Grid 4" ParentContainer="dashboardTabPage6" DataSource="sqlDataSource1" DataMember="WEB_SIPARISHAREKET">
+      <DataItems>
+        <Measure DataMember="CARI_KOD" SummaryType="Count" DefaultId="DataItem0" />
+      </DataItems>
+      <GridColumns>
+        <GridMeasureColumn Name="SİPARİŞ SAYISI">
+          <Measure DefaultId="DataItem0" />
+        </GridMeasureColumn>
+      </GridColumns>
+      <GridOptions />
+      <ColumnFilterOptions />
+    </Grid>
+    <Grid ComponentName="gridDashboardItem7" Name="Grid 6" ParentContainer="dashboardTabPage5" DataSource="sqlDataSource1" DataMember="WEB_STOKSATIS">
+      <DataItems>
+        <Dimension DataMember="AY" DefaultId="DataItem0" />
+        <Measure DataMember="DEPO_KODU" DefaultId="DataItem1" />
+        <Dimension DataMember="STHAR_GCKOD" DefaultId="DataItem2" />
+        <Measure DataMember="STHAR_GCMIK" DefaultId="DataItem3" />
+        <Dimension DataMember="STOK_ADI" DefaultId="DataItem4" />
+        <Dimension DataMember="STOK_KODU" DefaultId="DataItem5" />
+      </DataItems>
+      <GridColumns>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem0" />
+        </GridDimensionColumn>
+        <GridMeasureColumn>
+          <Measure DefaultId="DataItem1" />
+        </GridMeasureColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem2" />
+        </GridDimensionColumn>
+        <GridMeasureColumn>
+          <Measure DefaultId="DataItem3" />
+        </GridMeasureColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem4" />
+        </GridDimensionColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem5" />
+        </GridDimensionColumn>
+      </GridColumns>
+      <GridOptions />
+      <ColumnFilterOptions />
+    </Grid>
+    <Chart ComponentName="chartDashboardItem6" Name="Chart 1" ParentContainer="dashboardTabPage5" DataSource="sqlDataSource1" DataMember="WEB_STOKSATIS">
+      <DataItems>
+        <Measure DataMember="STOK_KODU" SummaryType="Count" DefaultId="DataItem0" />
+        <Dimension DataMember="AY" DefaultId="DataItem1" />
+      </DataItems>
+      <SeriesDimensions>
+        <SeriesDimension DefaultId="DataItem1" />
+      </SeriesDimensions>
+      <Panes>
+        <Pane Name="Pane 1">
+          <Series>
+            <Simple>
+              <Value DefaultId="DataItem0" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+    </Chart>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup>
+      <LayoutTabContainer DashboardItem="tabContainerDashboardItem1" Weight="1.2545655783065857">
+        <LayoutTabPage DashboardItem="dashboardTabPage1">
+          <LayoutGroup Orientation="Vertical" Weight="0.5566691049837307">
+            <LayoutItem DashboardItem="gridDashboardItem1" Weight="0.651700988492818" />
+            <LayoutItem DashboardItem="chartDashboardItem3" Weight="0.6504025381843271" />
+          </LayoutGroup>
+          <LayoutGroup Orientation="Vertical" Weight="1.2545655783065857">
+            <LayoutItem DashboardItem="pieDashboardItem1" Weight="1.2545655783065857" />
+            <LayoutItem DashboardItem="chartDashboardItem1" Weight="1.2545655783065857" />
+          </LayoutGroup>
+        </LayoutTabPage>
+        <LayoutTabPage DashboardItem="dashboardTabPage2">
+          <LayoutGroup Orientation="Vertical">
+            <LayoutGroup>
+              <LayoutItem DashboardItem="gridDashboardItem3" />
+              <LayoutItem DashboardItem="gridDashboardItem5" />
+            </LayoutGroup>
+            <LayoutGroup>
+              <LayoutItem DashboardItem="chartDashboardItem2" />
+              <LayoutItem DashboardItem="pieDashboardItem2" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutTabPage>
+        <LayoutTabPage DashboardItem="dashboardTabPage3">
+          <LayoutGroup Orientation="Vertical">
+            <LayoutItem DashboardItem="gridDashboardItem4" />
+            <LayoutItem DashboardItem="pieDashboardItem3" />
+          </LayoutGroup>
+          <LayoutItem DashboardItem="gridDashboardItem6" />
+        </LayoutTabPage>
+        <LayoutTabPage Orientation="Vertical" DashboardItem="dashboardTabPage4">
+          <LayoutGroup>
+            <LayoutItem DashboardItem="gridDashboardItem2" />
+            <LayoutItem DashboardItem="chartDashboardItem4" />
+          </LayoutGroup>
+        </LayoutTabPage>
+        <LayoutTabPage DashboardItem="dashboardTabPage5">
+          <LayoutGroup Orientation="Vertical">
+            <LayoutItem DashboardItem="gridDashboardItem7" />
+            <LayoutItem DashboardItem="chartDashboardItem6" />
+          </LayoutGroup>
+        </LayoutTabPage>
+        <LayoutTabPage Orientation="Vertical" DashboardItem="dashboardTabPage6">
+          <LayoutGroup Orientation="Vertical" Weight="1.1923076923076923">
+            <LayoutItem DashboardItem="gridDashboardItem10" Weight="1.5221709121604847" />
+            <LayoutItem DashboardItem="gridDashboardItem9" Weight="0.4778290878395153" />
+          </LayoutGroup>
+          <LayoutGroup Weight="0.8076923076923078">
+            <LayoutItem DashboardItem="pieDashboardItem4" />
+            <LayoutItem DashboardItem="chartDashboardItem5" />
+          </LayoutGroup>
+        </LayoutTabPage>
+        <LayoutTabPage DashboardItem="dashboardTabPage7" />
+        <LayoutTabPage DashboardItem="dashboardTabPage8" />
+        <LayoutTabPage DashboardItem="dashboardTabPage9" />
+      </LayoutTabContainer>
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>

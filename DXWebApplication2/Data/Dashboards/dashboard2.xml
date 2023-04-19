@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard>
+  <Title Text="dashboard2" />
+  <DataSources>
+    <SqlDataSource Name="SQL Data Source" ComponentName="sqlDataSource1" DataProcessingMode="Client">
+      <Connection Name="NWindConnectionString" FromAppConfig="true" />
+      <Query Type="SelectQuery" Name="TBLKASA">
+        <Tables>
+          <Table Name="TBLKASA" />
+        </Tables>
+        <Columns>
+          <Column Table="TBLKASA" Name="TARIH" />
+          <Column Table="TBLKASA" Name="FISNO" />
+          <Column Table="TBLKASA" Name="IO" />
+          <Column Table="TBLKASA" Name="TIP" />
+          <Column Table="TBLKASA" Name="ACIKLAMA" />
+          <Column Table="TBLKASA" Name="TUTAR" />
+          <Column Table="TBLKASA" Name="KUR" />
+          <Column Table="TBLKASA" Name="DOVIZTUT" />
+        </Columns>
+      </Query>
+      <ConnectionOptions CloseConnection="true" />
+    </SqlDataSource>
+  </DataSources>
+  <Items>
+    <Pie ComponentName="pieDashboardItem1" Name="Pies 1" DataSource="sqlDataSource1" DataMember="TBLKASA">
+      <DataItems>
+        <Measure DataMember="TUTAR" DefaultId="DataItem0" />
+        <Dimension DataMember="IO" DefaultId="DataItem1" />
+        <Dimension DataMember="TARIH" DateTimeGroupInterval="Month" DefaultId="DataItem2" />
+      </DataItems>
+      <SeriesDimensions>
+        <SeriesDimension DefaultId="DataItem2" />
+      </SeriesDimensions>
+      <Arguments>
+        <Argument DefaultId="DataItem1" />
+      </Arguments>
+      <Values>
+        <Value DefaultId="DataItem0" />
+      </Values>
+    </Pie>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup>
+      <LayoutItem DashboardItem="pieDashboardItem1" />
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>
